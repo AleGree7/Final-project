@@ -1,0 +1,2393 @@
+Safety 3.0.1 scanning C:\Users\shado\PycharmProjects\Sasha\OpenBBTerminal.git
+2024-02-19 21:21:40 UTC
+
+Account: Кирилл Шмелев, shmelevka1993@gmail.com 
+ Git branch: develop
+ Environment: Stage.development
+ Scan policy: None, using Safety CLI default policies
+
+Python detected. Found 41 Python poetry lock files and 2 Python requirements 
+files
+
+Dependency vulnerabilities detected:
+
+📝 poetry.lock:
+
+ aiohttp==3.8.5  [6 vulnerabilities found]                                     
+ Update aiohttp==3.8.5 to aiohttp==3.9.2 to fix 6 vulnerabilities              
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.8.5&to=3.9.2
+
+ bandit==1.7.5  [1 vulnerability found]                                        
+  -> Vuln ID 64484:                                                            
+     Bandit 1.7.7 identifies the str.replace method as a potential risk for SQL
+     injection because it can be misused...                                    
+ Update bandit==1.7.5 to bandit==1.7.7 to fix 1 vulnerability                  
+ Learn more: https://data.safetycli.com/p/pypi/bandit/eda/?from=1.7.5&to=1.7.7 
+
+ catboost==1.2  [30 vulnerabilities found, including 3 critical severity       
+ vulnerabilities]                                                              
+ Update catboost==1.2 to catboost==1.2.1 to fix 30 vulnerabilities, including 3
+ critical severity vulnerabilities 🛑                                          
+ Versions of catboost with no known vulnerabilities: 1.2.2, 1.2.1.1            
+ Learn more: https://data.safetycli.com/p/pypi/catboost/eda/?from=1.2&to=1.2.1 
+
+ certifi==2023.5.7  [1 vulnerability found]                                    
+  -> Vuln ID 59956: CVE-2023-37920, CVSS Severity CRITICAL                     
+     Certifi 2023.07.22 includes a fix for CVE-2023-37920: Certifi prior to    
+     version 2023.07.22 recognizes "e-Tugra"...                                
+ Update certifi==2023.5.7 to certifi==2023.7.22 to fix 1 vulnerability         
+ Versions of certifi with no known vulnerabilities: 2024.2.2, 2023.11.17       
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/certifi/eda/?from=2023.5.7&to=2023.7.22     
+
+ cryptography==41.0.2  [8 vulnerabilities found]                               
+ Update cryptography==41.0.2 to cryptography==42.0.2 to fix 8 vulnerabilities  
+ Versions of cryptography with no known vulnerabilities: 42.0.3                
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/cryptography/eda/?from=41.0.2&to=42.0.2     
+
+ dash==2.9.3  [2 vulnerabilities found]                                        
+  -> Vuln ID 65284: CVE-2024-21485, CVSS Severity MEDIUM                       
+     Earlier versions of Dash and its components are susceptible to an XSS     
+     vulnerability, specifically through the ...                               
+  -> Vuln ID 64770:                                                            
+     Dash 2.15.0 validates the URL to prevent XSS attacks identified on the    
+     'dash-core-components'.                                                   
+     https://githu...                                                          
+ Update dash==2.9.3 to dash==2.15.0 to fix 2 vulnerabilities                   
+ Learn more: https://data.safetycli.com/p/pypi/dash/eda/?from=2.9.3&to=2.15.0  
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fonttools==4.41.0  [2 vulnerabilities found]                                  
+  -> Vuln ID 65095: CVE-2023-45139, CVSS Severity HIGH                         
+     fontTools is a library for manipulating fonts, written in Python. The     
+     subsetting module has a XML External Ent...                               
+  -> Vuln ID 61503: CVE-2023-45139, CVSS Severity HIGH                         
+     Fonttools is affected by a XML External Entity Injection (XXE)            
+     Vulnerability. As of fonttools>=4.28.2 the subs...                        
+ Update fonttools==4.41.0 to fonttools==4.43.0 to fix 2 vulnerabilities        
+ Versions of fonttools with no known vulnerabilities: 4.49.0, 4.48.1, 4.47.2,  
+ 4.47.0, 4.46.0, 4.45.1, 4.45.0, 4.44.3, 4.44.1, 4.44.0, 4.43.1                
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fonttools/eda/?from=4.41.0&to=4.43.0        
+
+ gitpython==3.1.32  [3 vulnerabilities found]                                  
+ Update gitpython==3.1.32 to gitpython==3.1.41 to fix 3 vulnerabilities        
+ Versions of gitpython with no known vulnerabilities: 3.1.42                   
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/gitpython/eda/?from=3.1.32&to=3.1.41        
+
+ jinja2==3.1.2  [1 vulnerability found]                                        
+  -> Vuln ID 64227: CVE-2024-22195, CVSS Severity MEDIUM                       
+     Jinja2 before 3.1.3 is affected by a Cross-Site Scripting vulnerability.  
+     Special placeholders in the template ...                                  
+ Update jinja2==3.1.2 to jinja2==3.1.3 to fix 1 vulnerability                  
+ Learn more: https://data.safetycli.com/p/pypi/jinja2/eda/?from=3.1.2&to=3.1.3 
+
+ jupyter-server==1.23.6  [2 vulnerabilities found]                             
+  -> Vuln ID 65029: CVE-2023-39968, CVSS Severity MEDIUM                       
+     jupyter-server is the backend for Jupyter web applications. Open Redirect 
+     Vulnerability. Maliciously crafted l...                                   
+  -> Vuln ID 65358: CVE-2023-49080, CVSS Severity MEDIUM                       
+     The Jupyter Server provides the backend (i.e. the core services, APIs, and
+     REST endpoints) for Jupyter web app...                                    
+ Update jupyter-server==1.23.6 to jupyter-server==2.11.2 to fix 2              
+ vulnerabilities                                                               
+ Versions of jupyter-server with no known vulnerabilities: 2.12.5, 2.12.4,     
+ 2.12.3, 2.12.2, 2.12.1, 2.12.0                                                
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/jupyter-server/eda/?from=1.23.6&to=2.11.2   
+
+ jupyterlab==3.6.5  [1 vulnerability found]                                    
+  -> Vuln ID 64588: CVE-2024-22421, CVSS Severity MEDIUM                       
+     CVE-2024-22421 is a vulnerability in Jupyter Notebook where clicking a    
+     malicious link could expose Authorizati...                                
+ Update jupyterlab==3.6.5 to jupyterlab==3.6.7 to fix 1 vulnerability          
+ Versions of jupyterlab with no known vulnerabilities: 4.1.1, 4.1.0, 4.1.0rc1, 
+ 4.1.0rc0, 4.1.0b2, 4.1.0b1, 4.1.0b0, 4.1.0a4, 4.1.0a3, 4.1.0a2, 4.1.0a1,      
+ 4.0.12, 4.0.11, 4.0.0rc1, 4.0.0rc0, 4.0.0b2, 4.0.0b1, 4.0.0b0, 4.0.0a37,      
+ 4.0.0a36, 4.0.0a35, 4.0.0a34, 4.0.0a33, 4.0.0a32, 4.0.0a31, 4.0.0a30,         
+ 4.0.0a29, 4.0.0a28, 4.0.0a27, 4.0.0a26, 4.0.0a25, 4.0.0a24, 4.0.0a23,         
+ 4.0.0a22, 4.0.0a21, 4.0.0a20, 4.0.0a19, 4.0.0a18, 4.0.0a17, 4.0.0a16,         
+ 4.0.0a15, 4.0.0a14, 4.0.0a13, 4.0.0a12, 4.0.0a11, 4.0.0a10, 4.0.0a9, 4.0.0a8, 
+ 4.0.0a7, 4.0.0a6, 4.0.0a4, 4.0.0a3, 4.0.0a1, 4.0.0a0                          
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/jupyterlab/eda/?from=3.6.5&to=3.6.7         
+
+ langchain==0.0.266  [4 vulnerabilities found, including 1 critical severity   
+ vulnerability]                                                                
+ Update langchain==0.0.266 to langchain==0.0.329 to fix 4 vulnerabilities,     
+ including 1 critical severity vulnerability 🛑                                
+ Versions of langchain with no known vulnerabilities: 0.1.7, 0.1.6, 0.1.5,     
+ 0.1.4, 0.1.3, 0.1.2, 0.1.1, 0.1.0, 0.0.354, 0.0.353, 0.0.352, 0.0.351,        
+ 0.0.350, 0.0.349, 0.0.349rc2, 0.0.349rc1, 0.0.348, 0.0.347, 0.0.346, 0.0.345, 
+ 0.0.344, 0.0.343, 0.0.342, 0.0.341, 0.0.340, 0.0.339, 0.0.339rc3, 0.0.339rc2, 
+ 0.0.339rc1, 0.0.339rc0, 0.0.338, 0.0.337, 0.0.336, 0.0.335, 0.0.334, 0.0.333, 
+ 0.0.332, 0.0.331, 0.0.331rc3, 0.0.331rc2, 0.0.331rc1, 0.0.331rc0, 0.0.330     
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/langchain/eda/?from=0.0.266&to=0.0.329      
+
+ markdown-it-py==1.1.0  [2 vulnerabilities found]                              
+  -> Vuln ID 54650: CVE-2023-26303, CVSS Severity MEDIUM                       
+     Denial of service could be caused to markdown-it-py, before v2.2.0, if an 
+     attacker was allowed to force null a...                                   
+  -> Vuln ID 54651: CVE-2023-26302, CVSS Severity MEDIUM                       
+     Denial of service could be caused to the command line interface of        
+     markdown-it-py, before v2.2.0, if an attack...                            
+ Update markdown-it-py==1.1.0 to markdown-it-py==2.2.0 to fix 2 vulnerabilities
+ Versions of markdown-it-py with no known vulnerabilities: 3.0.0               
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/markdown-it-py/eda/?from=1.1.0&to=2.2.0     
+
+ pillow==9.5.0  [5 vulnerabilities found]                                      
+ Update pillow==9.5.0 to pillow==10.2.0 to fix 5 vulnerabilities               
+ Learn more: https://data.safetycli.com/p/pypi/pillow/eda/?from=9.5.0&to=10.2.0
+
+ protobuf==3.20.1  [1 vulnerability found]                                     
+  -> Vuln ID 51167: CVE-2022-1941, CVSS Severity HIGH                          
+     Protobuf 3.18.3, 3.19.5, 3.20.2 and 4.21.6 include a fix for              
+     CVE-2022-1941: A parsing vulnerability for the Me...                      
+ Update protobuf==3.20.1 to protobuf==3.20.2 to fix 1 vulnerability            
+ Versions of protobuf with no known vulnerabilities: 5.26.0rc2, 5.26.0rc1,     
+ 4.25.3, 4.25.2, 4.25.1, 4.25.0, 4.25.0rc2, 4.25.0rc1, 4.24.4, 4.24.3, 4.24.2, 
+ 4.24.1, 4.24.0, 4.24.0rc3, 4.24.0rc2, 4.24.0rc1, 4.23.4, 4.23.3, 4.23.2,      
+ 4.23.1, 4.23.0, 4.23.0rc3, 4.23.0rc2, 4.22.5, 4.22.4, 4.22.3, 4.22.1, 4.22.0, 
+ 4.22.0rc3, 4.22.0rc2, 4.22.0rc1, 4.21.12, 4.21.11, 4.21.10, 4.21.9, 4.21.8,   
+ 4.21.7, 4.21.6, 3.20.3, 3.19.6, 3.19.5, 3.18.3                                
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/protobuf/eda/?from=3.20.1&to=3.20.2         
+
+ py==1.11.0  [1 vulnerability found]                                           
+  -> Vuln ID 51457: CVE-2022-42969, CVSS Severity HIGH                         
+     Py throughout 1.11.0 allows remote attackers to conduct a ReDoS (Regular  
+     expression Denial of Service) attack ...                                  
+ No known fix for py==1.11.0 to fix 1 vulnerability                            
+ Learn more: https://data.safetycli.com/p/pypi/py/eda/?from=1.11.0             
+
+ pycryptodome==3.18.0  [2 vulnerabilities found]                               
+  -> Vuln ID 65207: CVE-2023-52323, CVSS Severity MEDIUM                       
+     PyCryptodome and pycryptodomex before 3.19.1 allow side-channel leakage   
+     for OAEP decryption, exploitable for a...                                 
+  -> Vuln ID 63680:                                                            
+     Pycryptodome 3.20.0 addresses a vulnerability in the OAEP decryption      
+     process, which previously had a side-chan...                              
+ Update pycryptodome==3.18.0 to pycryptodome==3.20.0 to fix 2 vulnerabilities  
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/pycryptodome/eda/?from=3.18.0&to=3.20.0     
+
+ pycryptodomex==3.18.0  [1 vulnerability found]                                
+  -> Vuln ID 65208: CVE-2023-52323, CVSS Severity MEDIUM                       
+     PyCryptodome and pycryptodomex before 3.19.1 allow side-channel leakage   
+     for OAEP decryption, exploitable for a...                                 
+ Update pycryptodomex==3.18.0 to pycryptodomex==3.19.1 to fix 1 vulnerability  
+ Versions of pycryptodomex with no known vulnerabilities: 3.20.0               
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/pycryptodomex/eda/?from=3.18.0&to=3.19.1    
+
+ pydantic==1.10.11  [1 vulnerability found]                                    
+  -> Vuln ID 61416:                                                            
+     Pydantic 1.10.13 and 2.4.0 include a fix for a regular expression denial  
+     of service vulnerability (REDoS).                                         
+     ht...                                                                     
+ Update pydantic==1.10.11 to pydantic==1.10.13 to fix 1 vulnerability          
+ Versions of pydantic with no known vulnerabilities: 2.6.1, 2.6.0, 2.6.0b1,    
+ 2.5.3, 2.5.2, 2.5.1, 2.5.0, 2.5.0b1, 2.4.2, 2.4.1, 2.4.0, 1.10.14             
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/pydantic/eda/?from=1.10.11&to=1.10.13       
+
+ pyinstaller==4.10  [1 vulnerability found]                                    
+  -> Vuln ID 65347: CVE-2023-49797, CVSS Severity HIGH                         
+     PyInstaller bundles a Python application and all its dependencies into a  
+     single package. A PyInstaller built a...                                  
+ Update pyinstaller==4.10 to pyinstaller==5.13.1 to fix 1 vulnerability        
+ Versions of pyinstaller with no known vulnerabilities: 6.4.0, 6.3.0, 6.2.0,   
+ 6.1.0, 6.0.0, 5.13.2                                                          
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/pyinstaller/eda/?from=4.10&to=5.13.1        
+
+ pywry==0.6.1  [1 vulnerability found]                                         
+  -> Vuln ID 61928: CVE-2023-4863, CVSS Severity HIGH                          
+     Pywry 0.6.2 updates its C dependency 'libwebp' to include a fix for a     
+     high-risk vulnerability.                                                  
+     https://github...                                                         
+ Update pywry==0.6.1 to pywry==0.6.2 to fix 1 vulnerability                    
+ Learn more: https://data.safetycli.com/p/pypi/pywry/eda/?from=0.6.1&to=0.6.2  
+
+ setuptools==65.4.1  [1 vulnerability found]                                   
+  -> Vuln ID 52495: CVE-2022-40897, CVSS Severity MEDIUM                       
+     Setuptools 65.5.1 includes a fix for CVE-2022-40897: Python Packaging     
+     Authority (PyPA) setuptools before 65.5....                               
+ Update setuptools==65.4.1 to setuptools==65.5.1 to fix 1 vulnerability        
+ Versions of setuptools with no known vulnerabilities: 69.1.0, 69.0.3, 69.0.2, 
+ 69.0.1, 69.0.0, 68.2.2, 68.2.1, 68.2.0, 68.1.2, 68.1.0, 68.0.0, 67.8.0,       
+ 67.7.2, 67.7.1, 67.7.0, 67.6.1, 67.6.0, 67.5.1, 67.5.0, 67.4.0, 67.3.3,       
+ 67.3.2, 67.3.1, 67.2.0, 67.1.0, 67.0.0, 66.1.1, 66.1.0, 66.0.0, 65.7.0,       
+ 65.6.3, 65.6.2, 65.6.1, 65.6.0                                                
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/setuptools/eda/?from=65.4.1&to=65.5.1       
+
+ torch==1.11.0  [3 vulnerabilities found]                                      
+ Update torch==1.11.0 to torch==1.13.1 to fix 3 vulnerabilities                
+ Versions of torch with no known vulnerabilities: 2.2.0, 2.1.2, 2.1.1, 2.1.0,  
+ 2.0.1, 2.0.0                                                                  
+ Learn more: https://data.safetycli.com/p/pypi/torch/eda/?from=1.11.0&to=1.13.1
+
+ tornado==6.3.2  [1 vulnerability found]                                       
+  -> Vuln ID 61949:                                                            
+     Summary: Tornado's interpretation of symbols `-`, `+`, and `_` within     
+     chunk lengths and 'Content-Length' value...                               
+ Update tornado==6.3.2 to tornado==6.3.3 to fix 1 vulnerability                
+ Versions of tornado with no known vulnerabilities: 6.4, 6.4b1                 
+ Learn more: https://data.safetycli.com/p/pypi/tornado/eda/?from=6.3.2&to=6.3.3
+
+ transformers==4.27.1  [4 vulnerabilities found]                               
+ Update transformers==4.27.1 to transformers==4.37.0 to fix 4 vulnerabilities  
+ Versions of transformers with no known vulnerabilities: 4.37.2, 4.37.1        
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/transformers/eda/?from=4.27.1&to=4.37.0     
+
+ urllib3==1.26.16  [2 vulnerabilities found]                                   
+  -> Vuln ID 61601: CVE-2023-43804, CVSS Severity HIGH                         
+     Urllib3 1.26.17 and 2.0.5 include a fix for CVE-2023-43804: Urllib3       
+     doesn't treat the 'Cookie' HTTP header spe...                             
+  -> Vuln ID 61893: CVE-2023-45803, CVSS Severity MEDIUM                       
+     Urllib3 1.26.18 and 2.0.7 include a fix for CVE-2023-45803: Request body  
+     not stripped after redirect from 303 ...                                  
+ Update urllib3==1.26.16 to urllib3==1.26.18 to fix 2 vulnerabilities          
+ Versions of urllib3 with no known vulnerabilities: 2.2.1, 2.2.0, 2.1.0, 2.0.7 
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/urllib3/eda/?from=1.26.16&to=1.26.18        
+
+ validators==0.20.0  [1 vulnerability found]                                   
+  -> Vuln ID 61924: CVE-2023-45813, CVSS Severity HIGH                         
+     Validators 0.21.0 includes a fix for CVE-2023-45813: Inefficient Regular  
+     Expression Complexity in validate_lin...                                  
+ Update validators==0.20.0 to validators==0.21.0 to fix 1 vulnerability        
+ Versions of validators with no known vulnerabilities: 0.22.0, 0.21.2, 0.21.1, 
+ 0.10.3, 0.10.2, 0.10.1, 0.10, 0.9, 0.8, 0.7, 0.6.0, 0.5.0, 0.4.0, 0.3.0,      
+ 0.2.0, 0.1.0                                                                  
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/validators/eda/?from=0.20.0&to=0.21.0       
+
+ werkzeug==2.3.6  [1 vulnerability found]                                      
+  -> Vuln ID 62019:                                                            
+     Werkzeug 3.0.1 and 2.3.8 include a security fix: Slow multipart parsing   
+     for large parts potentially enabling D...                                 
+ Update werkzeug==2.3.6 to werkzeug==2.3.8 to fix 1 vulnerability              
+ Versions of werkzeug with no known vulnerabilities: 3.0.1                     
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/werkzeug/eda/?from=2.3.6&to=2.3.8           
+
+ yt-dlp==2023.7.6  [2 vulnerabilities found]                                   
+  -> Vuln ID 61398: CVE-2023-40581, CVSS Severity HIGH                         
+     Yt-dlp 2023.09.24 includes a fix for CVE-2023-40581: '--exec' command     
+     injection when using '%q' in yt-dlp on W...                               
+  -> Vuln ID 62324: CVE-2023-46121, CVSS Severity LOW                          
+     Yt-dlp 2023.11.14 includes a fix for CVE-2023-46121: Generic Extractor    
+     MITM Vulnerability via Arbitrary Proxy ...                                
+ Update yt-dlp==2023.7.6 to yt-dlp==2023.11.14 to fix 2 vulnerabilities        
+ Versions of yt-dlp with no known vulnerabilities: 2024.2.18.232707.dev0,      
+ 2024.2.17.232706.dev0, 2024.2.16.232705.dev0, 2024.2.15.232705.dev0,          
+ 2024.2.14.232704.dev0, 2024.2.13.232701.dev0, 2024.2.9.232659.dev0,           
+ 2024.2.5.232712.dev0, 2024.2.4.232659.dev0, 2024.2.3.232712.dev0,             
+ 2024.2.2.232707.dev0, 2024.1.31.232703.dev0, 2024.1.29.232706.dev0,           
+ 2024.1.28.232706.dev0, 2024.1.23.232723.dev0, 2024.1.22.232713.dev0,          
+ 2024.1.21.232719.dev0, 2024.1.20.232722.dev0, 2024.1.19.232708.dev0,          
+ 2024.1.18.232658.dev0, 2024.1.14.232710.dev0, 2024.1.9.232723.dev0,           
+ 2024.1.8.232709.dev0, 2024.1.5.232702.dev0, 2024.1.2.232714.dev0,             
+ 2023.12.31.232713.dev0, 2023.12.30.232719.dev0, 2023.12.30,                   
+ 2023.12.26.232752.dev0, 2023.12.24.232657.dev0, 2023.12.22.232735.dev0,       
+ 2023.12.21.232720.dev0, 2023.12.20.232717.dev0, 2023.12.19.232701.dev0,       
+ 2023.12.18.232711.dev0, 2023.12.17.232710.dev0, 2023.12.13.232710.dev0,       
+ 2023.12.12.232727.dev0, 2023.12.6.232721.dev0, 2023.12.5.232702.dev0,         
+ 2023.11.29.232714.dev0, 2023.11.28.232715.dev0, 2023.11.26.232703.dev0,       
+ 2023.11.20.232729.dev0, 2023.11.19.232719.dev0, 2023.11.18.232705.dev0,       
+ 2023.11.16.232727.dev0, 2023.11.16, 2023.11.15.232826.dev0                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/yt-dlp/eda/?from=2023.7.6&to=2023.11.14     
+
+📝 openbb_platform\extensions\technical\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_platform\extensions\crypto\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+ urllib3==1.26.16  [2 vulnerabilities found]                                   
+  -> Vuln ID 61601: CVE-2023-43804, CVSS Severity HIGH                         
+     Urllib3 1.26.17 and 2.0.5 include a fix for CVE-2023-43804: Urllib3       
+     doesn't treat the 'Cookie' HTTP header spe...                             
+  -> Vuln ID 61893: CVE-2023-45803, CVSS Severity MEDIUM                       
+     Urllib3 1.26.18 and 2.0.7 include a fix for CVE-2023-45803: Request body  
+     not stripped after redirect from 303 ...                                  
+ Update urllib3==1.26.16 to urllib3==1.26.18 to fix 2 vulnerabilities          
+ Versions of urllib3 with no known vulnerabilities: 2.2.1, 2.2.0, 2.1.0, 2.0.7 
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/urllib3/eda/?from=1.26.16&to=1.26.18        
+
+📝 openbb_platform\extensions\derivatives\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_platform\extensions\news\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+ urllib3==1.26.16  [2 vulnerabilities found]                                   
+  -> Vuln ID 61601: CVE-2023-43804, CVSS Severity HIGH                         
+     Urllib3 1.26.17 and 2.0.5 include a fix for CVE-2023-43804: Urllib3       
+     doesn't treat the 'Cookie' HTTP header spe...                             
+  -> Vuln ID 61893: CVE-2023-45803, CVSS Severity MEDIUM                       
+     Urllib3 1.26.18 and 2.0.7 include a fix for CVE-2023-45803: Request body  
+     not stripped after redirect from 303 ...                                  
+ Update urllib3==1.26.16 to urllib3==1.26.18 to fix 2 vulnerabilities          
+ Versions of urllib3 with no known vulnerabilities: 2.2.1, 2.2.0, 2.1.0, 2.0.7 
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/urllib3/eda/?from=1.26.16&to=1.26.18        
+
+📝 openbb_platform\providers\finviz\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_platform\providers\sec\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_platform\providers\tiingo\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_platform\providers\finra\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_platform\providers\fred\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+ urllib3==1.26.16  [2 vulnerabilities found]                                   
+  -> Vuln ID 61601: CVE-2023-43804, CVSS Severity HIGH                         
+     Urllib3 1.26.17 and 2.0.5 include a fix for CVE-2023-43804: Urllib3       
+     doesn't treat the 'Cookie' HTTP header spe...                             
+  -> Vuln ID 61893: CVE-2023-45803, CVSS Severity MEDIUM                       
+     Urllib3 1.26.18 and 2.0.7 include a fix for CVE-2023-45803: Request body  
+     not stripped after redirect from 303 ...                                  
+ Update urllib3==1.26.16 to urllib3==1.26.18 to fix 2 vulnerabilities          
+ Versions of urllib3 with no known vulnerabilities: 2.2.1, 2.2.0, 2.1.0, 2.0.7 
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/urllib3/eda/?from=1.26.16&to=1.26.18        
+
+📝 openbb_platform\providers\polygon\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+ urllib3==1.26.16  [2 vulnerabilities found]                                   
+  -> Vuln ID 61601: CVE-2023-43804, CVSS Severity HIGH                         
+     Urllib3 1.26.17 and 2.0.5 include a fix for CVE-2023-43804: Urllib3       
+     doesn't treat the 'Cookie' HTTP header spe...                             
+  -> Vuln ID 61893: CVE-2023-45803, CVSS Severity MEDIUM                       
+     Urllib3 1.26.18 and 2.0.7 include a fix for CVE-2023-45803: Request body  
+     not stripped after redirect from 303 ...                                  
+ Update urllib3==1.26.16 to urllib3==1.26.18 to fix 2 vulnerabilities          
+ Versions of urllib3 with no known vulnerabilities: 2.2.1, 2.2.0, 2.1.0, 2.0.7 
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/urllib3/eda/?from=1.26.16&to=1.26.18        
+
+📝 openbb_platform\providers\wsj\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_platform\extensions\fixedincome\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+ urllib3==1.26.16  [2 vulnerabilities found]                                   
+  -> Vuln ID 61601: CVE-2023-43804, CVSS Severity HIGH                         
+     Urllib3 1.26.17 and 2.0.5 include a fix for CVE-2023-43804: Urllib3       
+     doesn't treat the 'Cookie' HTTP header spe...                             
+  -> Vuln ID 61893: CVE-2023-45803, CVSS Severity MEDIUM                       
+     Urllib3 1.26.18 and 2.0.7 include a fix for CVE-2023-45803: Request body  
+     not stripped after redirect from 303 ...                                  
+ Update urllib3==1.26.16 to urllib3==1.26.18 to fix 2 vulnerabilities          
+ Versions of urllib3 with no known vulnerabilities: 2.2.1, 2.2.0, 2.1.0, 2.0.7 
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/urllib3/eda/?from=1.26.16&to=1.26.18        
+
+📝 openbb_platform\extensions\etf\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_platform\providers\biztoc\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_platform\providers\oecd\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+ urllib3==1.26.17  [1 vulnerability found]                                     
+  -> Vuln ID 61893: CVE-2023-45803, CVSS Severity MEDIUM                       
+     Urllib3 1.26.18 and 2.0.7 include a fix for CVE-2023-45803: Request body  
+     not stripped after redirect from 303 ...                                  
+ Update urllib3==1.26.17 to urllib3==1.26.18 to fix 1 vulnerability            
+ Versions of urllib3 with no known vulnerabilities: 2.2.1, 2.2.0, 2.1.0, 2.0.7 
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/urllib3/eda/?from=1.26.17&to=1.26.18        
+
+📝 openbb_platform\providers\seeking_alpha\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_platform\providers\alpha_vantage\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+ urllib3==1.26.16  [2 vulnerabilities found]                                   
+  -> Vuln ID 61601: CVE-2023-43804, CVSS Severity HIGH                         
+     Urllib3 1.26.17 and 2.0.5 include a fix for CVE-2023-43804: Urllib3       
+     doesn't treat the 'Cookie' HTTP header spe...                             
+  -> Vuln ID 61893: CVE-2023-45803, CVSS Severity MEDIUM                       
+     Urllib3 1.26.18 and 2.0.7 include a fix for CVE-2023-45803: Request body  
+     not stripped after redirect from 303 ...                                  
+ Update urllib3==1.26.16 to urllib3==1.26.18 to fix 2 vulnerabilities          
+ Versions of urllib3 with no known vulnerabilities: 2.2.1, 2.2.0, 2.1.0, 2.0.7 
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/urllib3/eda/?from=1.26.16&to=1.26.18        
+
+📝 openbb_platform\extensions\regulators\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_platform\providers\cboe\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_platform\providers\benzinga\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+ urllib3==1.26.16  [2 vulnerabilities found]                                   
+  -> Vuln ID 61601: CVE-2023-43804, CVSS Severity HIGH                         
+     Urllib3 1.26.17 and 2.0.5 include a fix for CVE-2023-43804: Urllib3       
+     doesn't treat the 'Cookie' HTTP header spe...                             
+  -> Vuln ID 61893: CVE-2023-45803, CVSS Severity MEDIUM                       
+     Urllib3 1.26.18 and 2.0.7 include a fix for CVE-2023-45803: Request body  
+     not stripped after redirect from 303 ...                                  
+ Update urllib3==1.26.16 to urllib3==1.26.18 to fix 2 vulnerabilities          
+ Versions of urllib3 with no known vulnerabilities: 2.2.1, 2.2.0, 2.1.0, 2.0.7 
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/urllib3/eda/?from=1.26.16&to=1.26.18        
+
+📝 openbb_platform\providers\yfinance\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+ urllib3==1.26.16  [2 vulnerabilities found]                                   
+  -> Vuln ID 61601: CVE-2023-43804, CVSS Severity HIGH                         
+     Urllib3 1.26.17 and 2.0.5 include a fix for CVE-2023-43804: Urllib3       
+     doesn't treat the 'Cookie' HTTP header spe...                             
+  -> Vuln ID 61893: CVE-2023-45803, CVSS Severity MEDIUM                       
+     Urllib3 1.26.18 and 2.0.7 include a fix for CVE-2023-45803: Request body  
+     not stripped after redirect from 303 ...                                  
+ Update urllib3==1.26.16 to urllib3==1.26.18 to fix 2 vulnerabilities          
+ Versions of urllib3 with no known vulnerabilities: 2.2.1, 2.2.0, 2.1.0, 2.0.7 
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/urllib3/eda/?from=1.26.16&to=1.26.18        
+
+📝 openbb_platform\core\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_platform\extensions\index\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_platform\providers\nasdaq\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_platform\extensions\economy\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+ urllib3==1.26.16  [2 vulnerabilities found]                                   
+  -> Vuln ID 61601: CVE-2023-43804, CVSS Severity HIGH                         
+     Urllib3 1.26.17 and 2.0.5 include a fix for CVE-2023-43804: Urllib3       
+     doesn't treat the 'Cookie' HTTP header spe...                             
+  -> Vuln ID 61893: CVE-2023-45803, CVSS Severity MEDIUM                       
+     Urllib3 1.26.18 and 2.0.7 include a fix for CVE-2023-45803: Request body  
+     not stripped after redirect from 303 ...                                  
+ Update urllib3==1.26.16 to urllib3==1.26.18 to fix 2 vulnerabilities          
+ Versions of urllib3 with no known vulnerabilities: 2.2.1, 2.2.0, 2.1.0, 2.0.7 
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/urllib3/eda/?from=1.26.16&to=1.26.18        
+
+📝 openbb_platform\providers\ecb\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_platform\providers\stockgrid\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_platform\extensions\quantitative\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_platform\extensions\econometrics\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+ urllib3==1.26.16  [2 vulnerabilities found]                                   
+  -> Vuln ID 61601: CVE-2023-43804, CVSS Severity HIGH                         
+     Urllib3 1.26.17 and 2.0.5 include a fix for CVE-2023-43804: Urllib3       
+     doesn't treat the 'Cookie' HTTP header spe...                             
+  -> Vuln ID 61893: CVE-2023-45803, CVSS Severity MEDIUM                       
+     Urllib3 1.26.18 and 2.0.7 include a fix for CVE-2023-45803: Request body  
+     not stripped after redirect from 303 ...                                  
+ Update urllib3==1.26.16 to urllib3==1.26.18 to fix 2 vulnerabilities          
+ Versions of urllib3 with no known vulnerabilities: 2.2.1, 2.2.0, 2.1.0, 2.0.7 
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/urllib3/eda/?from=1.26.16&to=1.26.18        
+
+📝 openbb_platform\providers\government_us\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_platform\providers\federal_reserve\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_platform\providers\fmp\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+ urllib3==1.26.16  [2 vulnerabilities found]                                   
+  -> Vuln ID 61601: CVE-2023-43804, CVSS Severity HIGH                         
+     Urllib3 1.26.17 and 2.0.5 include a fix for CVE-2023-43804: Urllib3       
+     doesn't treat the 'Cookie' HTTP header spe...                             
+  -> Vuln ID 61893: CVE-2023-45803, CVSS Severity MEDIUM                       
+     Urllib3 1.26.18 and 2.0.7 include a fix for CVE-2023-45803: Request body  
+     not stripped after redirect from 303 ...                                  
+ Update urllib3==1.26.16 to urllib3==1.26.18 to fix 2 vulnerabilities          
+ Versions of urllib3 with no known vulnerabilities: 2.2.1, 2.2.0, 2.1.0, 2.0.7 
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/urllib3/eda/?from=1.26.16&to=1.26.18        
+
+📝 openbb_platform\obbject_extensions\charting\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_platform\extensions\currency\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+ urllib3==1.26.16  [2 vulnerabilities found]                                   
+  -> Vuln ID 61601: CVE-2023-43804, CVSS Severity HIGH                         
+     Urllib3 1.26.17 and 2.0.5 include a fix for CVE-2023-43804: Urllib3       
+     doesn't treat the 'Cookie' HTTP header spe...                             
+  -> Vuln ID 61893: CVE-2023-45803, CVSS Severity MEDIUM                       
+     Urllib3 1.26.18 and 2.0.7 include a fix for CVE-2023-45803: Request body  
+     not stripped after redirect from 303 ...                                  
+ Update urllib3==1.26.16 to urllib3==1.26.18 to fix 2 vulnerabilities          
+ Versions of urllib3 with no known vulnerabilities: 2.2.1, 2.2.0, 2.1.0, 2.0.7 
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/urllib3/eda/?from=1.26.16&to=1.26.18        
+
+📝 openbb_platform\providers\intrinio\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+ urllib3==1.26.16  [2 vulnerabilities found]                                   
+  -> Vuln ID 61601: CVE-2023-43804, CVSS Severity HIGH                         
+     Urllib3 1.26.17 and 2.0.5 include a fix for CVE-2023-43804: Urllib3       
+     doesn't treat the 'Cookie' HTTP header spe...                             
+  -> Vuln ID 61893: CVE-2023-45803, CVSS Severity MEDIUM                       
+     Urllib3 1.26.18 and 2.0.7 include a fix for CVE-2023-45803: Request body  
+     not stripped after redirect from 303 ...                                  
+ Update urllib3==1.26.16 to urllib3==1.26.18 to fix 2 vulnerabilities          
+ Versions of urllib3 with no known vulnerabilities: 2.2.1, 2.2.0, 2.1.0, 2.0.7 
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/urllib3/eda/?from=1.26.16&to=1.26.18        
+
+📝 openbb_platform\poetry.lock:
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+ peewee==3.17.0  [1 vulnerability found]                                       
+  -> Vuln ID 64952:                                                            
+     Peewee 3.17.1 introduces enhancements to address a race condition issue by
+     implementing stricter locking mecha...                                    
+ Update peewee==3.17.0 to peewee==3.17.1 to fix 1 vulnerability                
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/peewee/eda/?from=3.17.0&to=3.17.1           
+
+📝 openbb_platform\extensions\devtools\poetry.lock:
+
+ cryptography==42.0.1  [1 vulnerability found]                                 
+  -> Vuln ID 65212: CVE-2023-6129, CVSS Severity MEDIUM                        
+     Versions of Cryptograph starting from 35.0.0 are susceptible to a security
+     flaw in the POLY1305 MAC algorithm ...                                    
+ Update cryptography==42.0.1 to cryptography==42.0.2 to fix 1 vulnerability    
+ Versions of cryptography with no known vulnerabilities: 42.0.3                
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/cryptography/eda/?from=42.0.1&to=42.0.2     
+
+📝 openbb_platform\extensions\equity\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+ urllib3==1.26.16  [2 vulnerabilities found]                                   
+  -> Vuln ID 61601: CVE-2023-43804, CVSS Severity HIGH                         
+     Urllib3 1.26.17 and 2.0.5 include a fix for CVE-2023-43804: Urllib3       
+     doesn't treat the 'Cookie' HTTP header spe...                             
+  -> Vuln ID 61893: CVE-2023-45803, CVSS Severity MEDIUM                       
+     Urllib3 1.26.18 and 2.0.7 include a fix for CVE-2023-45803: Request body  
+     not stripped after redirect from 303 ...                                  
+ Update urllib3==1.26.16 to urllib3==1.26.18 to fix 2 vulnerabilities          
+ Versions of urllib3 with no known vulnerabilities: 2.2.1, 2.2.0, 2.1.0, 2.0.7 
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/urllib3/eda/?from=1.26.16&to=1.26.18        
+
+📝 openbb_platform\providers\tradingeconomics\poetry.lock:
+
+ aiohttp==3.9.1  [1 vulnerability found]                                       
+  -> Vuln ID 64642: CVE-2024-23334, CVSS Severity HIGH                         
+     The vulnerability lies in the improper configuration of static resource   
+     resolution when aiohttp is used as a w...                                 
+ Update aiohttp==3.9.1 to aiohttp==3.9.2 to fix 1 vulnerability                
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.9.1&to=3.9.2
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+ urllib3==1.26.17  [1 vulnerability found]                                     
+  -> Vuln ID 61893: CVE-2023-45803, CVSS Severity MEDIUM                       
+     Urllib3 1.26.18 and 2.0.7 include a fix for CVE-2023-45803: Request body  
+     not stripped after redirect from 303 ...                                  
+ Update urllib3==1.26.17 to urllib3==1.26.18 to fix 1 vulnerability            
+ Versions of urllib3 with no known vulnerabilities: 2.2.1, 2.2.0, 2.1.0, 2.0.7 
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/urllib3/eda/?from=1.26.17&to=1.26.18        
+
+📝 openbb_platform\extensions\commodity\poetry.lock:
+
+ ecdsa==0.18.0  [2 vulnerabilities found]                                      
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 to fix 2 vulnerabilities                       
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fastapi==0.104.1  [2 vulnerabilities found]                                   
+  -> Vuln ID 65293: CVE-2024-24762, CVSS Severity HIGH                         
+     FastAPI is a web framework for building APIs with Python 3.8+ based on    
+     standard Python type hints. When using ...                                
+  -> Vuln ID 64930:                                                            
+     FastAPI 0.109.1 addresses a critical security issue by upgrading its      
+     dependency python-multipart to version >=...                              
+ Update fastapi==0.104.1 to fastapi==0.109.1 to fix 2 vulnerabilities          
+ Versions of fastapi with no known vulnerabilities: 0.109.2                    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fastapi/eda/?from=0.104.1&to=0.109.1        
+
+📝 openbb_terminal\requirements.txt:
+
+ aiohttp==3.8.5 ; python_full_version >= "3.8.1" and python_full_version !=    
+ "3.9.7" and python_version < "3.11"  [6 vulnerabilities found]                
+ Update aiohttp==3.8.5 ; python_full_version >= "3.8.1" and python_full_version
+ != "3.9.7" and python_version < "3.11" to aiohttp==3.9.2 to fix 6             
+ vulnerabilities                                                               
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.8.5&to=3.9.2
+
+ certifi==2023.5.7 ; python_full_version >= "3.8.1" and python_full_version != 
+ "3.9.7" and python_version < "3.11"  [1 vulnerability found]                  
+  -> Vuln ID 59956: CVE-2023-37920, CVSS Severity CRITICAL                     
+     Certifi 2023.07.22 includes a fix for CVE-2023-37920: Certifi prior to    
+     version 2023.07.22 recognizes "e-Tugra"...                                
+ Update certifi==2023.5.7 ; python_full_version >= "3.8.1" and                 
+ python_full_version != "3.9.7" and python_version < "3.11" to                 
+ certifi==2023.7.22 to fix 1 vulnerability                                     
+ Versions of certifi with no known vulnerabilities: 2024.2.2, 2023.11.17       
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/certifi/eda/?from=2023.5.7&to=2023.7.22     
+
+ cryptography==41.0.2 ; python_full_version >= "3.8.1" and python_full_version 
+ != "3.9.7" and python_version < "3.11"  [8 vulnerabilities found]             
+ Update cryptography==41.0.2 ; python_full_version >= "3.8.1" and              
+ python_full_version != "3.9.7" and python_version < "3.11" to                 
+ cryptography==42.0.2 to fix 8 vulnerabilities                                 
+ Versions of cryptography with no known vulnerabilities: 42.0.3                
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/cryptography/eda/?from=41.0.2&to=42.0.2     
+
+ ecdsa==0.18.0 ; python_full_version >= "3.8.1" and python_full_version !=     
+ "3.9.7" and python_version < "3.11"  [2 vulnerabilities found]                
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 ; python_full_version >= "3.8.1" and           
+ python_full_version != "3.9.7" and python_version < "3.11" to fix 2           
+ vulnerabilities                                                               
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fonttools==4.41.0 ; python_full_version >= "3.8.1" and python_full_version != 
+ "3.9.7" and python_version < "3.11"  [2 vulnerabilities found]                
+  -> Vuln ID 65095: CVE-2023-45139, CVSS Severity HIGH                         
+     fontTools is a library for manipulating fonts, written in Python. The     
+     subsetting module has a XML External Ent...                               
+  -> Vuln ID 61503: CVE-2023-45139, CVSS Severity HIGH                         
+     Fonttools is affected by a XML External Entity Injection (XXE)            
+     Vulnerability. As of fonttools>=4.28.2 the subs...                        
+ Update fonttools==4.41.0 ; python_full_version >= "3.8.1" and                 
+ python_full_version != "3.9.7" and python_version < "3.11" to                 
+ fonttools==4.43.0 to fix 2 vulnerabilities                                    
+ Versions of fonttools with no known vulnerabilities: 4.49.0, 4.48.1, 4.47.2,  
+ 4.47.0, 4.46.0, 4.45.1, 4.45.0, 4.44.3, 4.44.1, 4.44.0, 4.43.1                
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fonttools/eda/?from=4.41.0&to=4.43.0        
+
+ gitpython==3.1.32 ; python_full_version >= "3.8.1" and python_full_version != 
+ "3.9.7" and python_version < "3.11"  [3 vulnerabilities found]                
+ Update gitpython==3.1.32 ; python_full_version >= "3.8.1" and                 
+ python_full_version != "3.9.7" and python_version < "3.11" to                 
+ gitpython==3.1.41 to fix 3 vulnerabilities                                    
+ Versions of gitpython with no known vulnerabilities: 3.1.42                   
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/gitpython/eda/?from=3.1.32&to=3.1.41        
+
+ jinja2==3.1.2 ; python_full_version >= "3.8.1" and python_full_version !=     
+ "3.9.7" and python_version < "3.11"  [1 vulnerability found]                  
+  -> Vuln ID 64227: CVE-2024-22195, CVSS Severity MEDIUM                       
+     Jinja2 before 3.1.3 is affected by a Cross-Site Scripting vulnerability.  
+     Special placeholders in the template ...                                  
+ Update jinja2==3.1.2 ; python_full_version >= "3.8.1" and python_full_version 
+ != "3.9.7" and python_version < "3.11" to jinja2==3.1.3 to fix 1 vulnerability
+ Learn more: https://data.safetycli.com/p/pypi/jinja2/eda/?from=3.1.2&to=3.1.3 
+
+ jupyter-server==1.23.6 ; python_full_version >= "3.8.1" and                   
+ python_full_version != "3.9.7" and python_version < "3.11"  [2 vulnerabilities
+ found]                                                                        
+  -> Vuln ID 65029: CVE-2023-39968, CVSS Severity MEDIUM                       
+     jupyter-server is the backend for Jupyter web applications. Open Redirect 
+     Vulnerability. Maliciously crafted l...                                   
+  -> Vuln ID 65358: CVE-2023-49080, CVSS Severity MEDIUM                       
+     The Jupyter Server provides the backend (i.e. the core services, APIs, and
+     REST endpoints) for Jupyter web app...                                    
+ Update jupyter-server==1.23.6 ; python_full_version >= "3.8.1" and            
+ python_full_version != "3.9.7" and python_version < "3.11" to                 
+ jupyter-server==2.11.2 to fix 2 vulnerabilities                               
+ Versions of jupyter-server with no known vulnerabilities: 2.12.5, 2.12.4,     
+ 2.12.3, 2.12.2, 2.12.1, 2.12.0                                                
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/jupyter-server/eda/?from=1.23.6&to=2.11.2   
+
+ jupyterlab==3.6.5 ; python_full_version >= "3.8.1" and python_full_version != 
+ "3.9.7" and python_version < "3.11"  [1 vulnerability found]                  
+  -> Vuln ID 64588: CVE-2024-22421, CVSS Severity MEDIUM                       
+     CVE-2024-22421 is a vulnerability in Jupyter Notebook where clicking a    
+     malicious link could expose Authorizati...                                
+ Update jupyterlab==3.6.5 ; python_full_version >= "3.8.1" and                 
+ python_full_version != "3.9.7" and python_version < "3.11" to                 
+ jupyterlab==3.6.7 to fix 1 vulnerability                                      
+ Versions of jupyterlab with no known vulnerabilities: 4.1.1, 4.1.0, 4.1.0rc1, 
+ 4.1.0rc0, 4.1.0b2, 4.1.0b1, 4.1.0b0, 4.1.0a4, 4.1.0a3, 4.1.0a2, 4.1.0a1,      
+ 4.0.12, 4.0.11, 4.0.0rc1, 4.0.0rc0, 4.0.0b2, 4.0.0b1, 4.0.0b0, 4.0.0a37,      
+ 4.0.0a36, 4.0.0a35, 4.0.0a34, 4.0.0a33, 4.0.0a32, 4.0.0a31, 4.0.0a30,         
+ 4.0.0a29, 4.0.0a28, 4.0.0a27, 4.0.0a26, 4.0.0a25, 4.0.0a24, 4.0.0a23,         
+ 4.0.0a22, 4.0.0a21, 4.0.0a20, 4.0.0a19, 4.0.0a18, 4.0.0a17, 4.0.0a16,         
+ 4.0.0a15, 4.0.0a14, 4.0.0a13, 4.0.0a12, 4.0.0a11, 4.0.0a10, 4.0.0a9, 4.0.0a8, 
+ 4.0.0a7, 4.0.0a6, 4.0.0a4, 4.0.0a3, 4.0.0a1, 4.0.0a0                          
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/jupyterlab/eda/?from=3.6.5&to=3.6.7         
+
+ langchain==0.0.237 ; python_full_version >= "3.8.1" and python_version <      
+ "3.11" and python_full_version != "3.9.7"  [6 vulnerabilities found, including
+ 2 critical severity vulnerabilities]                                          
+ Update langchain==0.0.237 ; python_full_version >= "3.8.1" and python_version 
+ < "3.11" and python_full_version != "3.9.7" to langchain==0.0.329 to fix 6    
+ vulnerabilities, including 2 critical severity vulnerabilities 🛑             
+ Versions of langchain with no known vulnerabilities: 0.1.7, 0.1.6, 0.1.5,     
+ 0.1.4, 0.1.3, 0.1.2, 0.1.1, 0.1.0, 0.0.354, 0.0.353, 0.0.352, 0.0.351,        
+ 0.0.350, 0.0.349, 0.0.349rc2, 0.0.349rc1, 0.0.348, 0.0.347, 0.0.346, 0.0.345, 
+ 0.0.344, 0.0.343, 0.0.342, 0.0.341, 0.0.340, 0.0.339, 0.0.339rc3, 0.0.339rc2, 
+ 0.0.339rc1, 0.0.339rc0, 0.0.338, 0.0.337, 0.0.336, 0.0.335, 0.0.334, 0.0.333, 
+ 0.0.332, 0.0.331, 0.0.331rc3, 0.0.331rc2, 0.0.331rc1, 0.0.331rc0, 0.0.330     
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/langchain/eda/?from=0.0.237&to=0.0.329      
+
+ llama-index==0.7.11 ; python_full_version >= "3.8.1" and python_full_version  
+ != "3.9.7" and python_version < "3.11"  [1 vulnerability found]               
+  -> Vuln ID 65039: CVE-2023-39662, CVSS Severity CRITICAL                     
+     An issue in llama_index v.0.7.13 and before allows a remote attacker to   
+     execute arbitrary code via the `exec` ...                                 
+ Update llama-index==0.7.11 ; python_full_version >= "3.8.1" and               
+ python_full_version != "3.9.7" and python_version < "3.11" to                 
+ llama-index==0.7.14 to fix 1 vulnerability                                    
+ Versions of llama-index with no known vulnerabilities: 0.10.6, 0.10.5,        
+ 0.10.5a1, 0.10.4, 0.10.3, 0.10.1, 0.10.0, 0.9.48, 0.9.47, 0.9.46,             
+ 0.9.45.post1, 0.9.45, 0.9.44, 0.9.43, 0.9.42.post2, 0.9.42.post1, 0.9.42,     
+ 0.9.41, 0.9.40, 0.9.39, 0.9.38, 0.9.37.post1, 0.9.37, 0.9.36, 0.9.35, 0.9.34, 
+ 0.9.33, 0.9.33a6, 0.9.33a5, 0.9.33a4, 0.9.33a3, 0.9.33a2, 0.9.32, 0.9.31,     
+ 0.9.30, 0.9.29, 0.9.28.post2, 0.9.28.post1, 0.9.28, 0.9.27, 0.9.26,           
+ 0.9.25.post1, 0.9.25, 0.9.25a2, 0.9.25a1, 0.9.24, 0.9.23, 0.9.22, 0.9.21,     
+ 0.9.20, 0.9.19, 0.9.18, 0.9.17, 0.9.17.dev1, 0.9.16.post1, 0.9.16,            
+ 0.9.16.dev2, 0.9.16.dev1, 0.9.15.post2, 0.9.15.post1, 0.9.15, 0.9.14.post3,   
+ 0.9.14.post2, 0.9.14.post1, 0.9.14, 0.9.13, 0.9.12, 0.9.12a6, 0.9.12a5,       
+ 0.9.12a4, 0.9.12a3, 0.9.12a2, 0.9.12a1, 0.9.11.post1, 0.9.11, 0.9.10,         
+ 0.9.10a2, 0.9.10a1, 0.9.9, 0.9.8.post1, 0.9.8, 0.9.7, 0.9.6.post2,            
+ 0.9.6.post1, 0.9.6, 0.9.5, 0.9.4, 0.9.3.post1, 0.9.3, 0.9.2, 0.9.1,           
+ 0.9.0.post1, 0.9.0, 0.9.0a3, 0.9.0a2, 0.9.0a1, 0.8.69.post2, 0.8.69.post1,    
+ 0.8.69, 0.8.68, 0.8.67, 0.8.66, 0.8.65, 0.8.64.post1, 0.8.64, 0.8.63.post2,   
+ 0.8.63.post1, 0.8.62, 0.8.61, 0.8.59, 0.8.58, 0.8.57, 0.8.56, 0.8.55, 0.8.54, 
+ 0.8.53.post3, 0.8.53, 0.8.52, 0.8.51.post1, 0.8.51, 0.8.50, 0.8.49, 0.8.48,   
+ 0.8.47, 0.8.46, 0.8.45.post1, 0.8.45, 0.8.44, 0.8.43.post1, 0.8.43, 0.8.42,   
+ 0.8.41, 0.8.40, 0.8.39.post2, 0.8.39, 0.8.38, 0.8.37, 0.8.36, 0.8.35, 0.8.34, 
+ 0.8.33, 0.8.32, 0.8.31, 0.8.30, 0.8.29.post1, 0.8.29, 0.8.28, 0.8.28a1,       
+ 0.8.27, 0.8.26.post1, 0.8.26, 0.8.25, 0.8.24.post1, 0.8.24, 0.8.23.post1,     
+ 0.8.23, 0.8.22, 0.8.21, 0.8.20, 0.8.19, 0.8.18, 0.8.17, 0.8.16, 0.8.15,       
+ 0.8.14, 0.8.13, 0.8.12, 0.8.11.post3, 0.8.11.post2, 0.8.11.post1, 0.8.11,     
+ 0.8.10.post1, 0.8.10, 0.8.9, 0.8.8, 0.8.7, 0.8.6, 0.8.5.post2, 0.8.5.post1,   
+ 0.8.5, 0.8.4, 0.8.3, 0.8.2.post1, 0.8.2, 0.8.1.post1, 0.8.1, 0.8.0,           
+ 0.7.24.post1, 0.7.23, 0.7.22, 0.7.21, 0.7.20, 0.7.19, 0.7.18, 0.7.17, 0.7.16, 
+ 0.7.15                                                                        
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/llama-index/eda/?from=0.7.11&to=0.7.14      
+
+ pillow==9.5.0 ; python_full_version >= "3.8.1" and python_full_version !=     
+ "3.9.7" and python_version < "3.11"  [5 vulnerabilities found]                
+ Update pillow==9.5.0 ; python_full_version >= "3.8.1" and python_full_version 
+ != "3.9.7" and python_version < "3.11" to pillow==10.2.0 to fix 5             
+ vulnerabilities                                                               
+ Learn more: https://data.safetycli.com/p/pypi/pillow/eda/?from=9.5.0&to=10.2.0
+
+ protobuf==3.20.1 ; python_full_version >= "3.8.1" and python_full_version !=  
+ "3.9.7" and python_version < "3.11"  [1 vulnerability found]                  
+  -> Vuln ID 51167: CVE-2022-1941, CVSS Severity HIGH                          
+     Protobuf 3.18.3, 3.19.5, 3.20.2 and 4.21.6 include a fix for              
+     CVE-2022-1941: A parsing vulnerability for the Me...                      
+ Update protobuf==3.20.1 ; python_full_version >= "3.8.1" and                  
+ python_full_version != "3.9.7" and python_version < "3.11" to protobuf==3.20.2
+ to fix 1 vulnerability                                                        
+ Versions of protobuf with no known vulnerabilities: 5.26.0rc2, 5.26.0rc1,     
+ 4.25.3, 4.25.2, 4.25.1, 4.25.0, 4.25.0rc2, 4.25.0rc1, 4.24.4, 4.24.3, 4.24.2, 
+ 4.24.1, 4.24.0, 4.24.0rc3, 4.24.0rc2, 4.24.0rc1, 4.23.4, 4.23.3, 4.23.2,      
+ 4.23.1, 4.23.0, 4.23.0rc3, 4.23.0rc2, 4.22.5, 4.22.4, 4.22.3, 4.22.1, 4.22.0, 
+ 4.22.0rc3, 4.22.0rc2, 4.22.0rc1, 4.21.12, 4.21.11, 4.21.10, 4.21.9, 4.21.8,   
+ 4.21.7, 4.21.6, 3.20.3, 3.19.6, 3.19.5, 3.18.3                                
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/protobuf/eda/?from=3.20.1&to=3.20.2         
+
+ pycryptodome==3.18.0 ; python_full_version >= "3.8.1" and python_full_version 
+ != "3.9.7" and python_version < "3.11"  [2 vulnerabilities found]             
+  -> Vuln ID 65207: CVE-2023-52323, CVSS Severity MEDIUM                       
+     PyCryptodome and pycryptodomex before 3.19.1 allow side-channel leakage   
+     for OAEP decryption, exploitable for a...                                 
+  -> Vuln ID 63680:                                                            
+     Pycryptodome 3.20.0 addresses a vulnerability in the OAEP decryption      
+     process, which previously had a side-chan...                              
+ Update pycryptodome==3.18.0 ; python_full_version >= "3.8.1" and              
+ python_full_version != "3.9.7" and python_version < "3.11" to                 
+ pycryptodome==3.20.0 to fix 2 vulnerabilities                                 
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/pycryptodome/eda/?from=3.18.0&to=3.20.0     
+
+ pydantic==1.10.11 ; python_full_version >= "3.8.1" and python_full_version != 
+ "3.9.7" and python_version < "3.11"  [1 vulnerability found]                  
+  -> Vuln ID 61416:                                                            
+     Pydantic 1.10.13 and 2.4.0 include a fix for a regular expression denial  
+     of service vulnerability (REDoS).                                         
+     ht...                                                                     
+ Update pydantic==1.10.11 ; python_full_version >= "3.8.1" and                 
+ python_full_version != "3.9.7" and python_version < "3.11" to                 
+ pydantic==1.10.13 to fix 1 vulnerability                                      
+ Versions of pydantic with no known vulnerabilities: 2.6.1, 2.6.0, 2.6.0b1,    
+ 2.5.3, 2.5.2, 2.5.1, 2.5.0, 2.5.0b1, 2.4.2, 2.4.1, 2.4.0, 1.10.14             
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/pydantic/eda/?from=1.10.11&to=1.10.13       
+
+ pywry==0.5.13 ; python_full_version >= "3.8.1" and python_full_version !=     
+ "3.9.7" and python_version < "3.11"  [1 vulnerability found]                  
+  -> Vuln ID 61928: CVE-2023-4863, CVSS Severity HIGH                          
+     Pywry 0.6.2 updates its C dependency 'libwebp' to include a fix for a     
+     high-risk vulnerability.                                                  
+     https://github...                                                         
+ Update pywry==0.5.13 ; python_full_version >= "3.8.1" and python_full_version 
+ != "3.9.7" and python_version < "3.11" to pywry==0.6.2 to fix 1 vulnerability 
+ Learn more: https://data.safetycli.com/p/pypi/pywry/eda/?from=0.5.13&to=0.6.2 
+
+ setuptools==65.4.1 ; python_full_version >= "3.8.1" and python_full_version !=
+ "3.9.7" and python_version < "3.11"  [1 vulnerability found]                  
+  -> Vuln ID 52495: CVE-2022-40897, CVSS Severity MEDIUM                       
+     Setuptools 65.5.1 includes a fix for CVE-2022-40897: Python Packaging     
+     Authority (PyPA) setuptools before 65.5....                               
+ Update setuptools==65.4.1 ; python_full_version >= "3.8.1" and                
+ python_full_version != "3.9.7" and python_version < "3.11" to                 
+ setuptools==65.5.1 to fix 1 vulnerability                                     
+ Versions of setuptools with no known vulnerabilities: 69.1.0, 69.0.3, 69.0.2, 
+ 69.0.1, 69.0.0, 68.2.2, 68.2.1, 68.2.0, 68.1.2, 68.1.0, 68.0.0, 67.8.0,       
+ 67.7.2, 67.7.1, 67.7.0, 67.6.1, 67.6.0, 67.5.1, 67.5.0, 67.4.0, 67.3.3,       
+ 67.3.2, 67.3.1, 67.2.0, 67.1.0, 67.0.0, 66.1.1, 66.1.0, 66.0.0, 65.7.0,       
+ 65.6.3, 65.6.2, 65.6.1, 65.6.0                                                
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/setuptools/eda/?from=65.4.1&to=65.5.1       
+
+ tornado==6.3.2 ; python_full_version >= "3.8.1" and python_full_version !=    
+ "3.9.7" and python_version < "3.11"  [1 vulnerability found]                  
+  -> Vuln ID 61949:                                                            
+     Summary: Tornado's interpretation of symbols `-`, `+`, and `_` within     
+     chunk lengths and 'Content-Length' value...                               
+ Update tornado==6.3.2 ; python_full_version >= "3.8.1" and python_full_version
+ != "3.9.7" and python_version < "3.11" to tornado==6.3.3 to fix 1             
+ vulnerability                                                                 
+ Versions of tornado with no known vulnerabilities: 6.4, 6.4b1                 
+ Learn more: https://data.safetycli.com/p/pypi/tornado/eda/?from=6.3.2&to=6.3.3
+
+ urllib3==1.26.16 ; python_full_version >= "3.8.1" and python_full_version !=  
+ "3.9.7" and python_version < "3.11"  [2 vulnerabilities found]                
+  -> Vuln ID 61601: CVE-2023-43804, CVSS Severity HIGH                         
+     Urllib3 1.26.17 and 2.0.5 include a fix for CVE-2023-43804: Urllib3       
+     doesn't treat the 'Cookie' HTTP header spe...                             
+  -> Vuln ID 61893: CVE-2023-45803, CVSS Severity MEDIUM                       
+     Urllib3 1.26.18 and 2.0.7 include a fix for CVE-2023-45803: Request body  
+     not stripped after redirect from 303 ...                                  
+ Update urllib3==1.26.16 ; python_full_version >= "3.8.1" and                  
+ python_full_version != "3.9.7" and python_version < "3.11" to urllib3==1.26.18
+ to fix 2 vulnerabilities                                                      
+ Versions of urllib3 with no known vulnerabilities: 2.2.1, 2.2.0, 2.1.0, 2.0.7 
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/urllib3/eda/?from=1.26.16&to=1.26.18        
+
+ validators==0.20.0 ; python_full_version >= "3.8.1" and python_full_version !=
+ "3.9.7" and python_version < "3.11"  [1 vulnerability found]                  
+  -> Vuln ID 61924: CVE-2023-45813, CVSS Severity HIGH                         
+     Validators 0.21.0 includes a fix for CVE-2023-45813: Inefficient Regular  
+     Expression Complexity in validate_lin...                                  
+ Update validators==0.20.0 ; python_full_version >= "3.8.1" and                
+ python_full_version != "3.9.7" and python_version < "3.11" to                 
+ validators==0.21.0 to fix 1 vulnerability                                     
+ Versions of validators with no known vulnerabilities: 0.22.0, 0.21.2, 0.21.1, 
+ 0.10.3, 0.10.2, 0.10.1, 0.10, 0.9, 0.8, 0.7, 0.6.0, 0.5.0, 0.4.0, 0.3.0,      
+ 0.2.0, 0.1.0                                                                  
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/validators/eda/?from=0.20.0&to=0.21.0       
+
+ yfinance==0.2.25 ; python_full_version >= "3.8.1" and python_full_version !=  
+ "3.9.7" and python_version < "3.11"  [1 vulnerability found]                  
+  -> Vuln ID 59792: CVE-2023-32681, CVSS Severity MEDIUM                       
+     Yfinance 0.2.26 updates its dependency 'requests' to version '2.31' to    
+     include a fix for an Information Exposu...                                
+ Update yfinance==0.2.25 ; python_full_version >= "3.8.1" and                  
+ python_full_version != "3.9.7" and python_version < "3.11" to yfinance==0.2.26
+ to fix 1 vulnerability                                                        
+ Versions of yfinance with no known vulnerabilities: 0.2.36, 0.2.35, 0.2.34,   
+ 0.2.33, 0.2.32, 0.2.31, 0.2.31b2, 0.2.31b1, 0.2.30, 0.2.29, 0.2.28, 0.2.27    
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/yfinance/eda/?from=0.2.25&to=0.2.26         
+
+📝 requirements.txt:
+
+ aiohttp==3.8.5 ; python_full_version >= "3.8.1" and python_full_version !=    
+ "3.9.7" and python_version < "3.11"  [6 vulnerabilities found]                
+ Update aiohttp==3.8.5 ; python_full_version >= "3.8.1" and python_full_version
+ != "3.9.7" and python_version < "3.11" to aiohttp==3.9.2 to fix 6             
+ vulnerabilities                                                               
+ Versions of aiohttp with no known vulnerabilities: 4.0.0a1, 4.0.0a0, 3.9.4rc0,
+ 3.9.3                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/aiohttp/eda/?from=3.8.5&to=3.9.2
+
+ bandit==1.7.5 ; python_full_version >= "3.8.1" and python_full_version !=     
+ "3.9.7" and python_version < "3.11"  [1 vulnerability found]                  
+  -> Vuln ID 64484:                                                            
+     Bandit 1.7.7 identifies the str.replace method as a potential risk for SQL
+     injection because it can be misused...                                    
+ Update bandit==1.7.5 ; python_full_version >= "3.8.1" and python_full_version 
+ != "3.9.7" and python_version < "3.11" to bandit==1.7.7 to fix 1 vulnerability
+ Learn more: https://data.safetycli.com/p/pypi/bandit/eda/?from=1.7.5&to=1.7.7 
+
+ certifi==2023.5.7 ; python_full_version >= "3.8.1" and python_full_version != 
+ "3.9.7" and python_version < "3.11"  [1 vulnerability found]                  
+  -> Vuln ID 59956: CVE-2023-37920, CVSS Severity CRITICAL                     
+     Certifi 2023.07.22 includes a fix for CVE-2023-37920: Certifi prior to    
+     version 2023.07.22 recognizes "e-Tugra"...                                
+ Update certifi==2023.5.7 ; python_full_version >= "3.8.1" and                 
+ python_full_version != "3.9.7" and python_version < "3.11" to                 
+ certifi==2023.7.22 to fix 1 vulnerability                                     
+ Versions of certifi with no known vulnerabilities: 2024.2.2, 2023.11.17       
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/certifi/eda/?from=2023.5.7&to=2023.7.22     
+
+ cryptography==41.0.2 ; python_full_version >= "3.8.1" and python_full_version 
+ != "3.9.7" and python_version < "3.11"  [8 vulnerabilities found]             
+ Update cryptography==41.0.2 ; python_full_version >= "3.8.1" and              
+ python_full_version != "3.9.7" and python_version < "3.11" to                 
+ cryptography==42.0.2 to fix 8 vulnerabilities                                 
+ Versions of cryptography with no known vulnerabilities: 42.0.3                
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/cryptography/eda/?from=41.0.2&to=42.0.2     
+
+ ecdsa==0.18.0 ; python_full_version >= "3.8.1" and python_full_version !=     
+ "3.9.7" and python_version < "3.11"  [2 vulnerabilities found]                
+  -> Vuln ID 64459: CVE-2024-23342, CVSS Severity HIGH                         
+     The python-ecdsa library, used for ECDSA cryptography in Python, is       
+     vulnerable to the Minerva attack (CVE-2024...                             
+  -> Vuln ID 64396:                                                            
+     Ecdsa does not protects against side-channel attacks. This is because     
+     Python does not provide side-channel sec...                               
+ No known fix for ecdsa==0.18.0 ; python_full_version >= "3.8.1" and           
+ python_full_version != "3.9.7" and python_version < "3.11" to fix 2           
+ vulnerabilities                                                               
+ Learn more: https://data.safetycli.com/p/pypi/ecdsa/eda/?from=0.18.0          
+
+ fonttools==4.41.0 ; python_full_version >= "3.8.1" and python_full_version != 
+ "3.9.7" and python_version < "3.11"  [2 vulnerabilities found]                
+  -> Vuln ID 65095: CVE-2023-45139, CVSS Severity HIGH                         
+     fontTools is a library for manipulating fonts, written in Python. The     
+     subsetting module has a XML External Ent...                               
+  -> Vuln ID 61503: CVE-2023-45139, CVSS Severity HIGH                         
+     Fonttools is affected by a XML External Entity Injection (XXE)            
+     Vulnerability. As of fonttools>=4.28.2 the subs...                        
+ Update fonttools==4.41.0 ; python_full_version >= "3.8.1" and                 
+ python_full_version != "3.9.7" and python_version < "3.11" to                 
+ fonttools==4.43.0 to fix 2 vulnerabilities                                    
+ Versions of fonttools with no known vulnerabilities: 4.49.0, 4.48.1, 4.47.2,  
+ 4.47.0, 4.46.0, 4.45.1, 4.45.0, 4.44.3, 4.44.1, 4.44.0, 4.43.1                
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/fonttools/eda/?from=4.41.0&to=4.43.0        
+
+ gitpython==3.1.32 ; python_full_version >= "3.8.1" and python_full_version != 
+ "3.9.7" and python_version < "3.11"  [3 vulnerabilities found]                
+ Update gitpython==3.1.32 ; python_full_version >= "3.8.1" and                 
+ python_full_version != "3.9.7" and python_version < "3.11" to                 
+ gitpython==3.1.41 to fix 3 vulnerabilities                                    
+ Versions of gitpython with no known vulnerabilities: 3.1.42                   
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/gitpython/eda/?from=3.1.32&to=3.1.41        
+
+ jinja2==3.1.2 ; python_full_version >= "3.8.1" and python_full_version !=     
+ "3.9.7" and python_version < "3.11"  [1 vulnerability found]                  
+  -> Vuln ID 64227: CVE-2024-22195, CVSS Severity MEDIUM                       
+     Jinja2 before 3.1.3 is affected by a Cross-Site Scripting vulnerability.  
+     Special placeholders in the template ...                                  
+ Update jinja2==3.1.2 ; python_full_version >= "3.8.1" and python_full_version 
+ != "3.9.7" and python_version < "3.11" to jinja2==3.1.3 to fix 1 vulnerability
+ Learn more: https://data.safetycli.com/p/pypi/jinja2/eda/?from=3.1.2&to=3.1.3 
+
+ jupyter-server==1.23.6 ; python_full_version >= "3.8.1" and                   
+ python_full_version != "3.9.7" and python_version < "3.11"  [2 vulnerabilities
+ found]                                                                        
+  -> Vuln ID 65029: CVE-2023-39968, CVSS Severity MEDIUM                       
+     jupyter-server is the backend for Jupyter web applications. Open Redirect 
+     Vulnerability. Maliciously crafted l...                                   
+  -> Vuln ID 65358: CVE-2023-49080, CVSS Severity MEDIUM                       
+     The Jupyter Server provides the backend (i.e. the core services, APIs, and
+     REST endpoints) for Jupyter web app...                                    
+ Update jupyter-server==1.23.6 ; python_full_version >= "3.8.1" and            
+ python_full_version != "3.9.7" and python_version < "3.11" to                 
+ jupyter-server==2.11.2 to fix 2 vulnerabilities                               
+ Versions of jupyter-server with no known vulnerabilities: 2.12.5, 2.12.4,     
+ 2.12.3, 2.12.2, 2.12.1, 2.12.0                                                
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/jupyter-server/eda/?from=1.23.6&to=2.11.2   
+
+ jupyterlab==3.6.5 ; python_full_version >= "3.8.1" and python_full_version != 
+ "3.9.7" and python_version < "3.11"  [1 vulnerability found]                  
+  -> Vuln ID 64588: CVE-2024-22421, CVSS Severity MEDIUM                       
+     CVE-2024-22421 is a vulnerability in Jupyter Notebook where clicking a    
+     malicious link could expose Authorizati...                                
+ Update jupyterlab==3.6.5 ; python_full_version >= "3.8.1" and                 
+ python_full_version != "3.9.7" and python_version < "3.11" to                 
+ jupyterlab==3.6.7 to fix 1 vulnerability                                      
+ Versions of jupyterlab with no known vulnerabilities: 4.1.1, 4.1.0, 4.1.0rc1, 
+ 4.1.0rc0, 4.1.0b2, 4.1.0b1, 4.1.0b0, 4.1.0a4, 4.1.0a3, 4.1.0a2, 4.1.0a1,      
+ 4.0.12, 4.0.11, 4.0.0rc1, 4.0.0rc0, 4.0.0b2, 4.0.0b1, 4.0.0b0, 4.0.0a37,      
+ 4.0.0a36, 4.0.0a35, 4.0.0a34, 4.0.0a33, 4.0.0a32, 4.0.0a31, 4.0.0a30,         
+ 4.0.0a29, 4.0.0a28, 4.0.0a27, 4.0.0a26, 4.0.0a25, 4.0.0a24, 4.0.0a23,         
+ 4.0.0a22, 4.0.0a21, 4.0.0a20, 4.0.0a19, 4.0.0a18, 4.0.0a17, 4.0.0a16,         
+ 4.0.0a15, 4.0.0a14, 4.0.0a13, 4.0.0a12, 4.0.0a11, 4.0.0a10, 4.0.0a9, 4.0.0a8, 
+ 4.0.0a7, 4.0.0a6, 4.0.0a4, 4.0.0a3, 4.0.0a1, 4.0.0a0                          
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/jupyterlab/eda/?from=3.6.5&to=3.6.7         
+
+ langchain==0.0.266 ; python_full_version >= "3.8.1" and python_version <      
+ "3.11" and python_full_version != "3.9.7"  [4 vulnerabilities found, including
+ 1 critical severity vulnerability]                                            
+ Update langchain==0.0.266 ; python_full_version >= "3.8.1" and python_version 
+ < "3.11" and python_full_version != "3.9.7" to langchain==0.0.329 to fix 4    
+ vulnerabilities, including 1 critical severity vulnerability 🛑               
+ Versions of langchain with no known vulnerabilities: 0.1.7, 0.1.6, 0.1.5,     
+ 0.1.4, 0.1.3, 0.1.2, 0.1.1, 0.1.0, 0.0.354, 0.0.353, 0.0.352, 0.0.351,        
+ 0.0.350, 0.0.349, 0.0.349rc2, 0.0.349rc1, 0.0.348, 0.0.347, 0.0.346, 0.0.345, 
+ 0.0.344, 0.0.343, 0.0.342, 0.0.341, 0.0.340, 0.0.339, 0.0.339rc3, 0.0.339rc2, 
+ 0.0.339rc1, 0.0.339rc0, 0.0.338, 0.0.337, 0.0.336, 0.0.335, 0.0.334, 0.0.333, 
+ 0.0.332, 0.0.331, 0.0.331rc3, 0.0.331rc2, 0.0.331rc1, 0.0.331rc0, 0.0.330     
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/langchain/eda/?from=0.0.266&to=0.0.329      
+
+ markdown-it-py==1.1.0 ; python_full_version >= "3.8.1" and python_version <   
+ "3.11" and python_full_version != "3.9.7"  [2 vulnerabilities found]          
+  -> Vuln ID 54650: CVE-2023-26303, CVSS Severity MEDIUM                       
+     Denial of service could be caused to markdown-it-py, before v2.2.0, if an 
+     attacker was allowed to force null a...                                   
+  -> Vuln ID 54651: CVE-2023-26302, CVSS Severity MEDIUM                       
+     Denial of service could be caused to the command line interface of        
+     markdown-it-py, before v2.2.0, if an attack...                            
+ Update markdown-it-py==1.1.0 ; python_full_version >= "3.8.1" and             
+ python_version < "3.11" and python_full_version != "3.9.7" to                 
+ markdown-it-py==2.2.0 to fix 2 vulnerabilities                                
+ Versions of markdown-it-py with no known vulnerabilities: 3.0.0               
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/markdown-it-py/eda/?from=1.1.0&to=2.2.0     
+
+ pillow==9.5.0 ; python_full_version >= "3.8.1" and python_full_version !=     
+ "3.9.7" and python_version < "3.11"  [5 vulnerabilities found]                
+ Update pillow==9.5.0 ; python_full_version >= "3.8.1" and python_full_version 
+ != "3.9.7" and python_version < "3.11" to pillow==10.2.0 to fix 5             
+ vulnerabilities                                                               
+ Learn more: https://data.safetycli.com/p/pypi/pillow/eda/?from=9.5.0&to=10.2.0
+
+ protobuf==3.20.1 ; python_full_version >= "3.8.1" and python_full_version !=  
+ "3.9.7" and python_version < "3.11"  [1 vulnerability found]                  
+  -> Vuln ID 51167: CVE-2022-1941, CVSS Severity HIGH                          
+     Protobuf 3.18.3, 3.19.5, 3.20.2 and 4.21.6 include a fix for              
+     CVE-2022-1941: A parsing vulnerability for the Me...                      
+ Update protobuf==3.20.1 ; python_full_version >= "3.8.1" and                  
+ python_full_version != "3.9.7" and python_version < "3.11" to protobuf==3.20.2
+ to fix 1 vulnerability                                                        
+ Versions of protobuf with no known vulnerabilities: 5.26.0rc2, 5.26.0rc1,     
+ 4.25.3, 4.25.2, 4.25.1, 4.25.0, 4.25.0rc2, 4.25.0rc1, 4.24.4, 4.24.3, 4.24.2, 
+ 4.24.1, 4.24.0, 4.24.0rc3, 4.24.0rc2, 4.24.0rc1, 4.23.4, 4.23.3, 4.23.2,      
+ 4.23.1, 4.23.0, 4.23.0rc3, 4.23.0rc2, 4.22.5, 4.22.4, 4.22.3, 4.22.1, 4.22.0, 
+ 4.22.0rc3, 4.22.0rc2, 4.22.0rc1, 4.21.12, 4.21.11, 4.21.10, 4.21.9, 4.21.8,   
+ 4.21.7, 4.21.6, 3.20.3, 3.19.6, 3.19.5, 3.18.3                                
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/protobuf/eda/?from=3.20.1&to=3.20.2         
+
+ py==1.11.0 ; thon_full_version >= "3.8.1" and thon_full_version != "3.9.7" and
+ thon_version < "3.11"  [1 vulnerability found]                                
+  -> Vuln ID 51457: CVE-2022-42969, CVSS Severity HIGH                         
+     Py throughout 1.11.0 allows remote attackers to conduct a ReDoS (Regular  
+     expression Denial of Service) attack ...                                  
+ No known fix for py==1.11.0 ; thon_full_version >= "3.8.1" and                
+ thon_full_version != "3.9.7" and thon_version < "3.11" to fix 1 vulnerability 
+ Learn more: https://data.safetycli.com/p/pypi/py/eda/?from=1.11.0             
+
+ pycryptodome==3.18.0 ; python_full_version >= "3.8.1" and python_full_version 
+ != "3.9.7" and python_version < "3.11"  [2 vulnerabilities found]             
+  -> Vuln ID 65207: CVE-2023-52323, CVSS Severity MEDIUM                       
+     PyCryptodome and pycryptodomex before 3.19.1 allow side-channel leakage   
+     for OAEP decryption, exploitable for a...                                 
+  -> Vuln ID 63680:                                                            
+     Pycryptodome 3.20.0 addresses a vulnerability in the OAEP decryption      
+     process, which previously had a side-chan...                              
+ Update pycryptodome==3.18.0 ; python_full_version >= "3.8.1" and              
+ python_full_version != "3.9.7" and python_version < "3.11" to                 
+ pycryptodome==3.20.0 to fix 2 vulnerabilities                                 
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/pycryptodome/eda/?from=3.18.0&to=3.20.0     
+
+ pydantic==1.10.11 ; python_full_version >= "3.8.1" and python_full_version != 
+ "3.9.7" and python_version < "3.11"  [1 vulnerability found]                  
+  -> Vuln ID 61416:                                                            
+     Pydantic 1.10.13 and 2.4.0 include a fix for a regular expression denial  
+     of service vulnerability (REDoS).                                         
+     ht...                                                                     
+ Update pydantic==1.10.11 ; python_full_version >= "3.8.1" and                 
+ python_full_version != "3.9.7" and python_version < "3.11" to                 
+ pydantic==1.10.13 to fix 1 vulnerability                                      
+ Versions of pydantic with no known vulnerabilities: 2.6.1, 2.6.0, 2.6.0b1,    
+ 2.5.3, 2.5.2, 2.5.1, 2.5.0, 2.5.0b1, 2.4.2, 2.4.1, 2.4.0, 1.10.14             
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/pydantic/eda/?from=1.10.11&to=1.10.13       
+
+ pywry==0.6.1 ; python_full_version >= "3.8.1" and python_full_version !=      
+ "3.9.7" and python_version < "3.11"  [1 vulnerability found]                  
+  -> Vuln ID 61928: CVE-2023-4863, CVSS Severity HIGH                          
+     Pywry 0.6.2 updates its C dependency 'libwebp' to include a fix for a     
+     high-risk vulnerability.                                                  
+     https://github...                                                         
+ Update pywry==0.6.1 ; python_full_version >= "3.8.1" and python_full_version  
+ != "3.9.7" and python_version < "3.11" to pywry==0.6.2 to fix 1 vulnerability 
+ Learn more: https://data.safetycli.com/p/pypi/pywry/eda/?from=0.6.1&to=0.6.2  
+
+ setuptools==65.4.1 ; python_full_version >= "3.8.1" and python_full_version !=
+ "3.9.7" and python_version < "3.11"  [1 vulnerability found]                  
+  -> Vuln ID 52495: CVE-2022-40897, CVSS Severity MEDIUM                       
+     Setuptools 65.5.1 includes a fix for CVE-2022-40897: Python Packaging     
+     Authority (PyPA) setuptools before 65.5....                               
+ Update setuptools==65.4.1 ; python_full_version >= "3.8.1" and                
+ python_full_version != "3.9.7" and python_version < "3.11" to                 
+ setuptools==65.5.1 to fix 1 vulnerability                                     
+ Versions of setuptools with no known vulnerabilities: 69.1.0, 69.0.3, 69.0.2, 
+ 69.0.1, 69.0.0, 68.2.2, 68.2.1, 68.2.0, 68.1.2, 68.1.0, 68.0.0, 67.8.0,       
+ 67.7.2, 67.7.1, 67.7.0, 67.6.1, 67.6.0, 67.5.1, 67.5.0, 67.4.0, 67.3.3,       
+ 67.3.2, 67.3.1, 67.2.0, 67.1.0, 67.0.0, 66.1.1, 66.1.0, 66.0.0, 65.7.0,       
+ 65.6.3, 65.6.2, 65.6.1, 65.6.0                                                
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/setuptools/eda/?from=65.4.1&to=65.5.1       
+
+ tornado==6.3.2 ; python_full_version >= "3.8.1" and python_full_version !=    
+ "3.9.7" and python_version < "3.11"  [1 vulnerability found]                  
+  -> Vuln ID 61949:                                                            
+     Summary: Tornado's interpretation of symbols `-`, `+`, and `_` within     
+     chunk lengths and 'Content-Length' value...                               
+ Update tornado==6.3.2 ; python_full_version >= "3.8.1" and python_full_version
+ != "3.9.7" and python_version < "3.11" to tornado==6.3.3 to fix 1             
+ vulnerability                                                                 
+ Versions of tornado with no known vulnerabilities: 6.4, 6.4b1                 
+ Learn more: https://data.safetycli.com/p/pypi/tornado/eda/?from=6.3.2&to=6.3.3
+
+ urllib3==1.26.16 ; python_full_version >= "3.8.1" and python_full_version !=  
+ "3.9.7" and python_version < "3.11"  [2 vulnerabilities found]                
+  -> Vuln ID 61601: CVE-2023-43804, CVSS Severity HIGH                         
+     Urllib3 1.26.17 and 2.0.5 include a fix for CVE-2023-43804: Urllib3       
+     doesn't treat the 'Cookie' HTTP header spe...                             
+  -> Vuln ID 61893: CVE-2023-45803, CVSS Severity MEDIUM                       
+     Urllib3 1.26.18 and 2.0.7 include a fix for CVE-2023-45803: Request body  
+     not stripped after redirect from 303 ...                                  
+ Update urllib3==1.26.16 ; python_full_version >= "3.8.1" and                  
+ python_full_version != "3.9.7" and python_version < "3.11" to urllib3==1.26.18
+ to fix 2 vulnerabilities                                                      
+ Versions of urllib3 with no known vulnerabilities: 2.2.1, 2.2.0, 2.1.0, 2.0.7 
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/urllib3/eda/?from=1.26.16&to=1.26.18        
+
+ validators==0.20.0 ; python_full_version >= "3.8.1" and python_full_version !=
+ "3.9.7" and python_version < "3.11"  [1 vulnerability found]                  
+  -> Vuln ID 61924: CVE-2023-45813, CVSS Severity HIGH                         
+     Validators 0.21.0 includes a fix for CVE-2023-45813: Inefficient Regular  
+     Expression Complexity in validate_lin...                                  
+ Update validators==0.20.0 ; python_full_version >= "3.8.1" and                
+ python_full_version != "3.9.7" and python_version < "3.11" to                 
+ validators==0.21.0 to fix 1 vulnerability                                     
+ Versions of validators with no known vulnerabilities: 0.22.0, 0.21.2, 0.21.1, 
+ 0.10.3, 0.10.2, 0.10.1, 0.10, 0.9, 0.8, 0.7, 0.6.0, 0.5.0, 0.4.0, 0.3.0,      
+ 0.2.0, 0.1.0                                                                  
+ Learn more:                                                                   
+ https://data.safetycli.com/p/pypi/validators/eda/?from=0.20.0&to=0.21.0       
+
+-------------------------------------------------------------------------------
+Apply Fixes
+-------------------------------------------------------------------------------
+
+Run `safety scan --apply-fixes` to update these packages and fix these 
+vulnerabilities. Documentation, limitations, and configurations for applying 
+automated fixes: 
+https://docs.safetycli.com/safety-docs/vulnerability-remediation/applying-fixes
+
+Alternatively, use your package manager to update packages to their secure 
+versions. Always check for breaking changes when updating packages.
+Tip: For more detailed output on each vulnerability, add the 
+`--detailed-output` flag to safety scan.
+
+-------------------------------------------------------------------------------
+
+Tested 3322 dependencies for known security issues using default Safety CLI 
+policies
+206 security issues found, 162 fixes suggested
+

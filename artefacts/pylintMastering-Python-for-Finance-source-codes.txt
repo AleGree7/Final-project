@@ -1,0 +1,545 @@
+************* Module B03898_01_01
+B03898_01_codes\B03898_01_01.py:13:9: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 13)' (syntax-error)
+************* Module B03898_01_02
+B03898_01_codes\B03898_01_02.py:9:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 9)' (syntax-error)
+************* Module B03898_02_01
+B03898_02_Codes\B03898_02_01.py:16:1: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 16)' (syntax-error)
+************* Module B03898_02_02
+B03898_02_Codes\B03898_02_02.py:24:1: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 24)' (syntax-error)
+************* Module B03898_02_03
+B03898_02_Codes\B03898_02_03.py:22:1: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 22)' (syntax-error)
+************* Module B03898_02_04
+B03898_02_Codes\B03898_02_04.py:44:0: C0304: Final newline missing (missing-final-newline)
+B03898_02_Codes\B03898_02_04.py:1:0: C0103: Module name "B03898_02_04" doesn't conform to snake_case naming style (invalid-name)
+B03898_02_Codes\B03898_02_04.py:8:0: W0105: String statement has no effect (pointless-string-statement)
+B03898_02_Codes\B03898_02_04.py:9:0: E0401: Unable to import 'pulp' (import-error)
+B03898_02_Codes\B03898_02_04.py:9:0: C0413: Import "import pulp" should be placed at the top of the module (wrong-import-position)
+B03898_02_Codes\B03898_02_04.py:33:9: R1728: Consider using a generator instead 'sum((variable_costs[i] * quantities[i] + fixed_costs[i]) * is_orders[i] for i in dealers)' (consider-using-generator)
+B03898_02_Codes\B03898_02_04.py:36:9: R1728: Consider using a generator instead 'sum(quantities[i] for i in dealers)' (consider-using-generator)
+
+------------------------------------------------------------------
+Your code has been rated at 2.67/10 (previous run: 2.67/10, +0.00)
+
+************* Module B03898_02_05
+B03898_02_Codes\B03898_02_05.py:46:1: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 46)' (syntax-error)
+************* Module B03898_02_06
+B03898_02_Codes\B03898_02_06.py:16:1: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 16)' (syntax-error)
+************* Module B03898_02_07
+B03898_02_Codes\B03898_02_07.py:20:1: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 20)' (syntax-error)
+************* Module B03898_02_08
+B03898_02_Codes\B03898_02_08.py:19:1: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 19)' (syntax-error)
+************* Module B03898_02_09
+B03898_02_Codes\B03898_02_09.py:21:1: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 21)' (syntax-error)
+************* Module B03898_02_10
+B03898_02_Codes\B03898_02_10.py:37:1: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 37)' (syntax-error)
+************* Module B03898_02_11
+B03898_02_Codes\B03898_02_11.py:36:1: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 36)' (syntax-error)
+************* Module bisection
+B03898_03_codes\bisection.py:40:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 40)' (syntax-error)
+************* Module general_nonlinear_solvers_no_solution
+B03898_03_codes\general_nonlinear_solvers_no_solution.py:19:1: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 19)' (syntax-error)
+************* Module general_nonlinear_solvers_with_solution
+B03898_03_codes\general_nonlinear_solvers_with_solution.py:19:1: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 19)' (syntax-error)
+************* Module incremental_search
+B03898_03_codes\incremental_search.py:50:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 50)' (syntax-error)
+************* Module newton
+B03898_03_codes\newton.py:36:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 36)' (syntax-error)
+************* Module scipy_optimize
+B03898_03_codes\scipy_optimize.py:18:1: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 18)' (syntax-error)
+************* Module secant
+B03898_03_codes\secant.py:36:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 36)' (syntax-error)
+************* Module BinomialCRRLattice
+B03898_04_codes\BinomialCRRLattice.py:47:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 47)' (syntax-error)
+************* Module BinomialCRROption
+B03898_04_codes\BinomialCRROption.py:27:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 27)' (syntax-error)
+************* Module BinomialEuropeanOption
+B03898_04_codes\BinomialEuropeanOption.py:67:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 67)' (syntax-error)
+************* Module BinomialLROption
+B03898_04_codes\BinomialLROption.py:43:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 43)' (syntax-error)
+************* Module BinomialLRWithGreeks
+B03898_04_codes\BinomialLRWithGreeks.py:62:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 62)' (syntax-error)
+************* Module BinomialTreeOption
+B03898_04_codes\BinomialTreeOption.py:76:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 76)' (syntax-error)
+************* Module bisection
+B03898_04_codes\bisection.py:40:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 40)' (syntax-error)
+************* Module FDCnAm
+B03898_04_codes\FDCnAm.py:98:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 98)' (syntax-error)
+************* Module FDCnDo
+B03898_04_codes\FDCnDo.py:33:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 33)' (syntax-error)
+************* Module FDCnEu
+B03898_04_codes\FDCnEu.py:49:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 49)' (syntax-error)
+************* Module FDExplicitEu
+B03898_04_codes\FDExplicitEu.py:55:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 55)' (syntax-error)
+************* Module FDImplicitEu
+B03898_04_codes\FDImplicitEu.py:47:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 47)' (syntax-error)
+************* Module FiniteDifferences
+B03898_04_codes\FiniteDifferences.py:1:0: C0103: Module name "FiniteDifferences" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\FiniteDifferences.py:8:0: W0105: String statement has no effect (pointless-string-statement)
+B03898_04_codes\FiniteDifferences.py:9:0: E0401: Unable to import 'numpy' (import-error)
+B03898_04_codes\FiniteDifferences.py:9:0: C0413: Import "import numpy as np" should be placed at the top of the module (wrong-import-position)
+B03898_04_codes\FiniteDifferences.py:12:0: C0115: Missing class docstring (missing-class-docstring)
+B03898_04_codes\FiniteDifferences.py:16:8: C0103: Attribute name "S0" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\FiniteDifferences.py:17:8: C0103: Attribute name "K" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\FiniteDifferences.py:19:8: C0103: Attribute name "T" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\FiniteDifferences.py:21:8: C0103: Attribute name "Smax" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\FiniteDifferences.py:22:8: C0103: Attribute name "M" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\FiniteDifferences.py:22:16: C0103: Attribute name "N" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\FiniteDifferences.py:25:8: C0103: Attribute name "dS" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\FiniteDifferences.py:12:0: R0205: Class 'FiniteDifferences' inherits from object, can be safely removed from bases in python3 (useless-object-inheritance)
+B03898_04_codes\FiniteDifferences.py:12:0: R0902: Too many instance attributes (15/7) (too-many-instance-attributes)
+B03898_04_codes\FiniteDifferences.py:14:23: C0103: Argument name "S0" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\FiniteDifferences.py:14:27: C0103: Argument name "K" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\FiniteDifferences.py:14:33: C0103: Argument name "T" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\FiniteDifferences.py:14:43: C0103: Argument name "Smax" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\FiniteDifferences.py:14:49: C0103: Argument name "M" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\FiniteDifferences.py:14:52: C0103: Argument name "N" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\FiniteDifferences.py:14:4: R0913: Too many arguments (10/5) (too-many-arguments)
+B03898_04_codes\FiniteDifferences.py:40:8: W0107: Unnecessary pass statement (unnecessary-pass)
+B03898_04_codes\FiniteDifferences.py:51:4: C0116: Missing function or method docstring (missing-function-docstring)
+B03898_04_codes\FiniteDifferences.py:12:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 0.97/10 (previous run: 0.97/10, +0.00)
+
+************* Module ImpliedVolatilityModel
+B03898_04_codes\ImpliedVolatilityModel.py:64:0: C0304: Final newline missing (missing-final-newline)
+B03898_04_codes\ImpliedVolatilityModel.py:1:0: C0103: Module name "ImpliedVolatilityModel" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\ImpliedVolatilityModel.py:8:0: W0105: String statement has no effect (pointless-string-statement)
+B03898_04_codes\ImpliedVolatilityModel.py:12:0: E0001: Cannot import 'bisection' due to 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 40)' (syntax-error)
+B03898_04_codes\ImpliedVolatilityModel.py:12:0: C0413: Import "from bisection import bisection" should be placed at the top of the module (wrong-import-position)
+B03898_04_codes\ImpliedVolatilityModel.py:13:0: E0001: Cannot import 'BinomialLROption' due to 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 43)' (syntax-error)
+B03898_04_codes\ImpliedVolatilityModel.py:13:0: C0413: Import "from BinomialLROption import BinomialLROption" should be placed at the top of the module (wrong-import-position)
+B03898_04_codes\ImpliedVolatilityModel.py:15:0: C0115: Missing class docstring (missing-class-docstring)
+B03898_04_codes\ImpliedVolatilityModel.py:19:8: C0103: Attribute name "S0" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\ImpliedVolatilityModel.py:21:8: C0103: Attribute name "T" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\ImpliedVolatilityModel.py:23:8: C0103: Attribute name "N" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\ImpliedVolatilityModel.py:15:0: R0205: Class 'ImpliedVolatilityModel' inherits from object, can be safely removed from bases in python3 (useless-object-inheritance)
+B03898_04_codes\ImpliedVolatilityModel.py:17:23: C0103: Argument name "S0" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\ImpliedVolatilityModel.py:17:30: C0103: Argument name "T" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\ImpliedVolatilityModel.py:17:38: C0103: Argument name "N" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\ImpliedVolatilityModel.py:17:4: R0913: Too many arguments (7/5) (too-many-arguments)
+B03898_04_codes\ImpliedVolatilityModel.py:26:33: C0103: Argument name "K" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\ImpliedVolatilityModel.py:35:4: C0116: Missing function or method docstring (missing-function-docstring)
+B03898_04_codes\ImpliedVolatilityModel.py:35:39: C0103: Argument name "Ks" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\ImpliedVolatilityModel.py:39:16: C3001: Lambda expression assigned to a variable. Define a function using the "def" keyword instead. (unnecessary-lambda-assignment)
+B03898_04_codes\ImpliedVolatilityModel.py:41:23: W0640: Cell variable i defined in loop (cell-var-from-loop)
+B03898_04_codes\ImpliedVolatilityModel.py:41:47: W0640: Cell variable i defined in loop (cell-var-from-loop)
+B03898_04_codes\ImpliedVolatilityModel.py:15:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+B03898_04_codes\ImpliedVolatilityModel.py:59:4: E0401: Unable to import 'matplotlib.pyplot' (import-error)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+
+************* Module StockOption
+B03898_04_codes\StockOption.py:33:0: C0304: Final newline missing (missing-final-newline)
+B03898_04_codes\StockOption.py:1:0: C0103: Module name "StockOption" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\StockOption.py:8:0: W0105: String statement has no effect (pointless-string-statement)
+B03898_04_codes\StockOption.py:9:0: C0413: Import "import math" should be placed at the top of the module (wrong-import-position)
+B03898_04_codes\StockOption.py:12:0: C0115: Missing class docstring (missing-class-docstring)
+B03898_04_codes\StockOption.py:15:8: C0103: Attribute name "S0" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\StockOption.py:16:8: C0103: Attribute name "K" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\StockOption.py:18:8: C0103: Attribute name "T" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\StockOption.py:19:8: C0103: Attribute name "N" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\StockOption.py:20:8: C0103: Attribute name "STs" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\StockOption.py:12:0: R0205: Class 'StockOption' inherits from object, can be safely removed from bases in python3 (useless-object-inheritance)
+B03898_04_codes\StockOption.py:12:0: R0902: Too many instance attributes (14/7) (too-many-instance-attributes)
+B03898_04_codes\StockOption.py:14:23: C0103: Argument name "S0" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\StockOption.py:14:27: C0103: Argument name "K" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\StockOption.py:14:33: C0103: Argument name "T" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\StockOption.py:14:36: C0103: Argument name "N" doesn't conform to snake_case naming style (invalid-name)
+B03898_04_codes\StockOption.py:14:4: R0913: Too many arguments (7/5) (too-many-arguments)
+B03898_04_codes\StockOption.py:12:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 1.00/10 (previous run: 1.00/10, +0.00)
+
+************* Module TrinomialLattice
+B03898_04_codes\TrinomialLattice.py:45:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 45)' (syntax-error)
+************* Module TrinomialTreeOption
+B03898_04_codes\TrinomialTreeOption.py:66:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 66)' (syntax-error)
+************* Module bond_convexity
+B03898_05_Codes\bond_convexity.py:26:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 26)' (syntax-error)
+************* Module bond_mod_duration
+B03898_05_Codes\bond_mod_duration.py:27:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 27)' (syntax-error)
+************* Module bond_price
+B03898_05_Codes\bond_price.py:22:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 22)' (syntax-error)
+************* Module bond_ytm
+B03898_05_Codes\bond_ytm.py:17:22: E0001: Parsing failed: 'Lambda expression parameters cannot be parenthesized (<unknown>, line 17)' (syntax-error)
+************* Module BootstrapYieldCurve
+B03898_05_Codes\BootstrapYieldCurve.py:73:13: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 73)' (syntax-error)
+************* Module brennan_schwartz
+B03898_05_Codes\brennan_schwartz.py:11:64: C0303: Trailing whitespace (trailing-whitespace)
+B03898_05_Codes\brennan_schwartz.py:13:19: C0303: Trailing whitespace (trailing-whitespace)
+B03898_05_Codes\brennan_schwartz.py:27:0: C0304: Final newline missing (missing-final-newline)
+B03898_05_Codes\brennan_schwartz.py:8:0: W0105: String statement has no effect (pointless-string-statement)
+B03898_05_Codes\brennan_schwartz.py:9:0: E0401: Unable to import 'numpy' (import-error)
+B03898_05_Codes\brennan_schwartz.py:9:0: C0413: Import "import numpy as np" should be placed at the top of the module (wrong-import-position)
+B03898_05_Codes\brennan_schwartz.py:11:0: C0116: Missing function or method docstring (missing-function-docstring)
+B03898_05_Codes\brennan_schwartz.py:11:25: C0103: Argument name "K" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\brennan_schwartz.py:11:42: C0103: Argument name "T" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\brennan_schwartz.py:11:48: C0103: Argument name "N" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\brennan_schwartz.py:11:0: R0913: Too many arguments (7/5) (too-many-arguments)
+B03898_05_Codes\brennan_schwartz.py:15:8: W0612: Unused variable 'i' (unused-variable)
+B03898_05_Codes\brennan_schwartz.py:25:4: E0401: Unable to import 'matplotlib.pyplot' (import-error)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+
+************* Module cir
+B03898_05_Codes\cir.py:14:19: C0303: Trailing whitespace (trailing-whitespace)
+B03898_05_Codes\cir.py:8:0: W0105: String statement has no effect (pointless-string-statement)
+B03898_05_Codes\cir.py:9:0: C0413: Import "import math" should be placed at the top of the module (wrong-import-position)
+B03898_05_Codes\cir.py:10:0: E0401: Unable to import 'numpy' (import-error)
+B03898_05_Codes\cir.py:10:0: C0413: Import "import numpy as np" should be placed at the top of the module (wrong-import-position)
+B03898_05_Codes\cir.py:12:0: C0116: Missing function or method docstring (missing-function-docstring)
+B03898_05_Codes\cir.py:12:12: C0103: Argument name "K" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\cir.py:12:29: C0103: Argument name "T" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\cir.py:12:35: C0103: Argument name "N" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\cir.py:12:0: R0913: Too many arguments (7/5) (too-many-arguments)
+B03898_05_Codes\cir.py:16:8: W0612: Unused variable 'i' (unused-variable)
+B03898_05_Codes\cir.py:25:4: E0401: Unable to import 'matplotlib.pyplot' (import-error)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+
+************* Module exact_zcb
+B03898_05_Codes\exact_zcb.py:45:0: C0305: Trailing newlines (trailing-newlines)
+B03898_05_Codes\exact_zcb.py:8:0: E0401: Unable to import 'numpy' (import-error)
+B03898_05_Codes\exact_zcb.py:10:0: W0105: String statement has no effect (pointless-string-statement)
+B03898_05_Codes\exact_zcb.py:11:0: C0116: Missing function or method docstring (missing-function-docstring)
+B03898_05_Codes\exact_zcb.py:12:4: C0103: Variable name "B" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\exact_zcb.py:13:4: C0103: Variable name "A" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\exact_zcb.py:17:0: C0413: Import "import math" should be placed at the top of the module (wrong-import-position)
+B03898_05_Codes\exact_zcb.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+B03898_05_Codes\exact_zcb.py:18:19: C0103: Argument name "K" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\exact_zcb.py:18:22: C0103: Argument name "R" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\exact_zcb.py:26:4: E0401: Unable to import 'matplotlib.pyplot' (import-error)
+B03898_05_Codes\exact_zcb.py:17:0: C0411: standard import "import math" should be placed before "import numpy as np" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 3.10/10 (previous run: 3.10/10, +0.00)
+
+************* Module forward_rates
+B03898_05_Codes\forward_rates.py:46:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 46)' (syntax-error)
+************* Module rendleman_bartter
+B03898_05_Codes\rendleman_bartter.py:11:60: C0303: Trailing whitespace (trailing-whitespace)
+B03898_05_Codes\rendleman_bartter.py:13:19: C0303: Trailing whitespace (trailing-whitespace)
+B03898_05_Codes\rendleman_bartter.py:26:0: C0304: Final newline missing (missing-final-newline)
+B03898_05_Codes\rendleman_bartter.py:8:0: W0105: String statement has no effect (pointless-string-statement)
+B03898_05_Codes\rendleman_bartter.py:9:0: E0401: Unable to import 'numpy' (import-error)
+B03898_05_Codes\rendleman_bartter.py:9:0: C0413: Import "import numpy as np" should be placed at the top of the module (wrong-import-position)
+B03898_05_Codes\rendleman_bartter.py:11:0: C0116: Missing function or method docstring (missing-function-docstring)
+B03898_05_Codes\rendleman_bartter.py:11:40: C0103: Argument name "T" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\rendleman_bartter.py:11:45: C0103: Argument name "N" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\rendleman_bartter.py:11:0: R0913: Too many arguments (6/5) (too-many-arguments)
+B03898_05_Codes\rendleman_bartter.py:15:8: W0612: Unused variable 'i' (unused-variable)
+B03898_05_Codes\rendleman_bartter.py:24:4: E0401: Unable to import 'matplotlib.pyplot' (import-error)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+
+************* Module vasicek
+B03898_05_Codes\vasicek.py:11:55: C0303: Trailing whitespace (trailing-whitespace)
+B03898_05_Codes\vasicek.py:13:19: C0303: Trailing whitespace (trailing-whitespace)
+B03898_05_Codes\vasicek.py:25:0: C0304: Final newline missing (missing-final-newline)
+B03898_05_Codes\vasicek.py:8:0: W0105: String statement has no effect (pointless-string-statement)
+B03898_05_Codes\vasicek.py:9:0: E0401: Unable to import 'numpy' (import-error)
+B03898_05_Codes\vasicek.py:9:0: C0413: Import "import numpy as np" should be placed at the top of the module (wrong-import-position)
+B03898_05_Codes\vasicek.py:11:0: C0116: Missing function or method docstring (missing-function-docstring)
+B03898_05_Codes\vasicek.py:11:16: C0103: Argument name "K" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\vasicek.py:11:33: C0103: Argument name "T" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\vasicek.py:11:39: C0103: Argument name "N" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\vasicek.py:11:0: R0913: Too many arguments (7/5) (too-many-arguments)
+B03898_05_Codes\vasicek.py:15:8: W0612: Unused variable 'i' (unused-variable)
+B03898_05_Codes\vasicek.py:23:4: E0401: Unable to import 'matplotlib.pyplot' (import-error)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+
+************* Module VasicekCZCB
+B03898_05_Codes\VasicekCZCB.py:15:0: C0303: Trailing whitespace (trailing-whitespace)
+B03898_05_Codes\VasicekCZCB.py:18:45: C0303: Trailing whitespace (trailing-whitespace)
+B03898_05_Codes\VasicekCZCB.py:152:0: C0325: Unnecessary parens after '=' keyword (superfluous-parens)
+B03898_05_Codes\VasicekCZCB.py:169:41: C0303: Trailing whitespace (trailing-whitespace)
+B03898_05_Codes\VasicekCZCB.py:221:0: C0304: Final newline missing (missing-final-newline)
+B03898_05_Codes\VasicekCZCB.py:1:0: C0103: Module name "VasicekCZCB" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:8:0: W0105: String statement has no effect (pointless-string-statement)
+B03898_05_Codes\VasicekCZCB.py:9:0: C0413: Import "import math" should be placed at the top of the module (wrong-import-position)
+B03898_05_Codes\VasicekCZCB.py:10:0: E0401: Unable to import 'numpy' (import-error)
+B03898_05_Codes\VasicekCZCB.py:10:0: C0413: Import "import numpy as np" should be placed at the top of the module (wrong-import-position)
+B03898_05_Codes\VasicekCZCB.py:11:0: E0401: Unable to import 'scipy.stats' (import-error)
+B03898_05_Codes\VasicekCZCB.py:11:0: C0413: Import "import scipy.stats as st" should be placed at the top of the module (wrong-import-position)
+B03898_05_Codes\VasicekCZCB.py:14:0: C0115: Missing class docstring (missing-class-docstring)
+B03898_05_Codes\VasicekCZCB.py:20:4: C0116: Missing function or method docstring (missing-function-docstring)
+B03898_05_Codes\VasicekCZCB.py:20:38: C0103: Argument name "R" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:20:48: C0103: Argument name "T" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:21:35: C0103: Argument name "M" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:20:4: R0913: Too many arguments (13/5) (too-many-arguments)
+B03898_05_Codes\VasicekCZCB.py:20:4: R0914: Too many local variables (26/15) (too-many-locals)
+B03898_05_Codes\VasicekCZCB.py:20:34: W0621: Redefining name 'r0' from outer scope (line 183) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:20:38: W0621: Redefining name 'R' from outer scope (line 184) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:20:41: W0621: Redefining name 'ratio' from outer scope (line 185) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:20:48: W0621: Redefining name 'T' from outer scope (line 206) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:20:51: W0621: Redefining name 'sigma' from outer scope (line 186) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:20:58: W0621: Redefining name 'kappa' from outer scope (line 187) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:21:28: W0621: Redefining name 'theta' from outer scope (line 188) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:21:35: W0621: Redefining name 'M' from outer scope (line 190) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:21:38: W0621: Redefining name 'prob' from outer scope (line 189) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:22:28: W0621: Redefining name 'max_policy_iter' from outer scope (line 191) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:23:52: W0621: Redefining name 'rs' from outer scope (line 193) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:27:8: W0621: Redefining name 'r' from outer scope (line 196) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:24:19: C0103: Variable name "N" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:31:12: C0103: Variable name "K" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:36:22: W0612: Unused variable 'iterations' (unused-variable)
+B03898_05_Codes\VasicekCZCB.py:41:4: C0116: Missing function or method docstring (missing-function-docstring)
+B03898_05_Codes\VasicekCZCB.py:41:33: C0103: Argument name "M" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:41:57: C0103: Argument name "T" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:41:4: R0913: Too many arguments (10/5) (too-many-arguments)
+B03898_05_Codes\VasicekCZCB.py:41:29: W0621: Redefining name 'r0' from outer scope (line 183) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:41:33: W0621: Redefining name 'M' from outer scope (line 190) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:41:36: W0621: Redefining name 'sigma' from outer scope (line 186) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:41:43: W0621: Redefining name 'kappa' from outer scope (line 187) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:41:50: W0621: Redefining name 'theta' from outer scope (line 188) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:41:57: W0621: Redefining name 'T' from outer scope (line 206) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:42:23: W0621: Redefining name 'prob' from outer scope (line 189) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:42:53: W0621: Redefining name 'rs' from outer scope (line 193) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:47:8: C0103: Variable name "N" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:52:4: C0116: Missing function or method docstring (missing-function-docstring)
+B03898_05_Codes\VasicekCZCB.py:52:4: C0103: Method name "calculate_N" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:52:4: R0913: Too many arguments (6/5) (too-many-arguments)
+B03898_05_Codes\VasicekCZCB.py:53:20: W0621: Redefining name 'sigma' from outer scope (line 186) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:54:8: C0103: Variable name "N" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:56:12: C0103: Variable name "N" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:64:4: C0116: Missing function or method docstring (missing-function-docstring)
+B03898_05_Codes\VasicekCZCB.py:65:30: C0103: Argument name "T" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:64:4: R0913: Too many arguments (7/5) (too-many-arguments)
+B03898_05_Codes\VasicekCZCB.py:64:29: W0621: Redefining name 'r0' from outer scope (line 183) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:64:33: W0621: Redefining name 'sigma' from outer scope (line 186) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:64:40: W0621: Redefining name 'kappa' from outer scope (line 187) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:65:23: W0621: Redefining name 'theta' from outer scope (line 188) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:65:30: W0621: Redefining name 'T' from outer scope (line 206) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:65:33: W0621: Redefining name 'prob' from outer scope (line 189) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:74:4: C0116: Missing function or method docstring (missing-function-docstring)
+B03898_05_Codes\VasicekCZCB.py:75:37: C0103: Argument name "N" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:74:4: R0913: Too many arguments (8/5) (too-many-arguments)
+B03898_05_Codes\VasicekCZCB.py:74:32: W0621: Redefining name 'sigma' from outer scope (line 186) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:74:39: W0621: Redefining name 'kappa' from outer scope (line 187) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:74:46: W0621: Redefining name 'theta' from outer scope (line 188) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:100:4: C0116: Missing function or method docstring (missing-function-docstring)
+B03898_05_Codes\VasicekCZCB.py:100:29: C0103: Argument name "V" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:103:4: C0116: Missing function or method docstring (missing-function-docstring)
+B03898_05_Codes\VasicekCZCB.py:103:34: C0103: Argument name "R" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:103:34: W0621: Redefining name 'R' from outer scope (line 184) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:103:37: W0621: Redefining name 'ratio' from outer scope (line 185) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:104:8: C0103: Variable name "K" doesn't conform to snake_case naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:107:4: C0116: Missing function or method docstring (missing-function-docstring)
+B03898_05_Codes\VasicekCZCB.py:107:4: R0913: Too many arguments (7/5) (too-many-arguments)
+B03898_05_Codes\VasicekCZCB.py:118:4: C0116: Missing function or method docstring (missing-function-docstring)
+B03898_05_Codes\VasicekCZCB.py:118:4: R0913: Too many arguments (7/5) (too-many-arguments)
+B03898_05_Codes\VasicekCZCB.py:118:4: R0914: Too many local variables (16/15) (too-many-locals)
+B03898_05_Codes\VasicekCZCB.py:119:28: W0621: Redefining name 'max_policy_iter' from outer scope (line 191) (redefined-outer-name)
+B03898_05_Codes\VasicekCZCB.py:147:29: R1719: The if expression can be replaced with 'not test' (simplifiable-if-expression)
+B03898_05_Codes\VasicekCZCB.py:163:4: C0116: Missing function or method docstring (missing-function-docstring)
+B03898_05_Codes\VasicekCZCB.py:167:18: E0602: Undefined variable 'xrange' (undefined-variable)
+B03898_05_Codes\VasicekCZCB.py:175:18: E0602: Undefined variable 'xrange' (undefined-variable)
+B03898_05_Codes\VasicekCZCB.py:183:4: C0103: Constant name "r0" doesn't conform to UPPER_CASE naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:185:4: C0103: Constant name "ratio" doesn't conform to UPPER_CASE naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:186:4: C0103: Constant name "sigma" doesn't conform to UPPER_CASE naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:187:4: C0103: Constant name "kappa" doesn't conform to UPPER_CASE naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:188:4: C0103: Constant name "theta" doesn't conform to UPPER_CASE naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:189:4: C0103: Constant name "prob" doesn't conform to UPPER_CASE naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:191:4: C0103: Constant name "max_policy_iter" doesn't conform to UPPER_CASE naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:192:4: C0103: Constant name "grid_struct_interval" doesn't conform to UPPER_CASE naming style (invalid-name)
+B03898_05_Codes\VasicekCZCB.py:202:4: E0401: Unable to import 'matplotlib.pyplot' (import-error)
+
+------------------------------------------------------------------
+Your code has been rated at 1.30/10 (previous run: 1.30/10, +0.00)
+
+************* Module zero_coupon_bond
+B03898_05_Codes\zero_coupon_bond.py:18:1: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 18)' (syntax-error)
+************* Module B03898_07_02
+B03898_07_Codes\B03898_07_02.py:14:9: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 14)' (syntax-error)
+************* Module B03898_07_04
+B03898_07_Codes\B03898_07_04.py:21:13: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 21)' (syntax-error)
+************* Module B03898_07_08
+B03898_07_Codes\B03898_07_08.py:25:4: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 25)' (syntax-error)
+************* Module B03898_07_11
+B03898_07_Codes\B03898_07_11.py:20:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 20)' (syntax-error)
+************* Module B03898_07_14
+B03898_07_Codes\B03898_07_14.py:11:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 11)' (syntax-error)
+************* Module B03898_07_15
+B03898_07_Codes\B03898_07_15.py:24:1: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 24)' (syntax-error)
+************* Module AlgoSystem
+B03898_08_codes\AlgoSystem.py:38:13: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 38)' (syntax-error)
+************* Module calculating_var
+B03898_08_codes\calculating_var.py:35:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 35)' (syntax-error)
+************* Module exploring_oanda_api
+B03898_08_codes\exploring_oanda_api.py:18:1: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 18)' (syntax-error)
+************* Module ForexSystem
+B03898_08_codes\ForexSystem.py:146:13: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 146)' (syntax-error)
+************* Module oandapy
+B03898_08_codes\oandapy.py:171:0: C0303: Trailing whitespace (trailing-whitespace)
+B03898_08_codes\oandapy.py:173:0: C0303: Trailing whitespace (trailing-whitespace)
+B03898_08_codes\oandapy.py:180:0: C0303: Trailing whitespace (trailing-whitespace)
+B03898_08_codes\oandapy.py:187:0: C0303: Trailing whitespace (trailing-whitespace)
+B03898_08_codes\oandapy.py:194:0: C0303: Trailing whitespace (trailing-whitespace)
+B03898_08_codes\oandapy.py:201:0: C0303: Trailing whitespace (trailing-whitespace)
+B03898_08_codes\oandapy.py:208:0: C0303: Trailing whitespace (trailing-whitespace)
+B03898_08_codes\oandapy.py:215:0: C0301: Line too long (143/100) (line-too-long)
+B03898_08_codes\oandapy.py:216:0: C0301: Line too long (137/100) (line-too-long)
+B03898_08_codes\oandapy.py:242:0: C0301: Line too long (136/100) (line-too-long)
+B03898_08_codes\oandapy.py:282:0: C0301: Line too long (132/100) (line-too-long)
+B03898_08_codes\oandapy.py:283:0: C0301: Line too long (137/100) (line-too-long)
+B03898_08_codes\oandapy.py:303:0: C0301: Line too long (111/100) (line-too-long)
+B03898_08_codes\oandapy.py:356:0: C0301: Line too long (108/100) (line-too-long)
+B03898_08_codes\oandapy.py:11:0: W0105: String statement has no effect (pointless-string-statement)
+B03898_08_codes\oandapy.py:13:0: W0105: String statement has no effect (pointless-string-statement)
+B03898_08_codes\oandapy.py:17:0: R0205: Class 'EndpointsMixin' inherits from object, can be safely removed from bases in python3 (useless-object-inheritance)
+B03898_08_codes\oandapy.py:43:4: W0105: String statement has no effect (pointless-string-statement)
+B03898_08_codes\oandapy.py:63:19: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+B03898_08_codes\oandapy.py:66:4: W0105: String statement has no effect (pointless-string-statement)
+B03898_08_codes\oandapy.py:72:19: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+B03898_08_codes\oandapy.py:79:19: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+B03898_08_codes\oandapy.py:86:19: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+B03898_08_codes\oandapy.py:93:19: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+B03898_08_codes\oandapy.py:100:19: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+B03898_08_codes\oandapy.py:103:4: W0105: String statement has no effect (pointless-string-statement)
+B03898_08_codes\oandapy.py:109:19: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+B03898_08_codes\oandapy.py:116:19: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+B03898_08_codes\oandapy.py:123:19: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+B03898_08_codes\oandapy.py:130:19: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+B03898_08_codes\oandapy.py:133:4: W0105: String statement has no effect (pointless-string-statement)
+B03898_08_codes\oandapy.py:139:19: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+B03898_08_codes\oandapy.py:146:19: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+B03898_08_codes\oandapy.py:153:19: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+B03898_08_codes\oandapy.py:156:4: W0105: String statement has no effect (pointless-string-statement)
+B03898_08_codes\oandapy.py:162:19: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+B03898_08_codes\oandapy.py:169:19: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+B03898_08_codes\oandapy.py:172:4: W0105: String statement has no effect (pointless-string-statement)
+B03898_08_codes\oandapy.py:17:0: R0904: Too many public methods (25/20) (too-many-public-methods)
+B03898_08_codes\oandapy.py:210:0: W0105: String statement has no effect (pointless-string-statement)
+B03898_08_codes\oandapy.py:212:0: C0115: Missing class docstring (missing-class-docstring)
+B03898_08_codes\oandapy.py:212:0: R0205: Class 'API' inherits from object, can be safely removed from bases in python3 (useless-object-inheritance)
+B03898_08_codes\oandapy.py:246:14: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+B03898_08_codes\oandapy.py:273:0: W0105: String statement has no effect (pointless-string-statement)
+B03898_08_codes\oandapy.py:327:25: W0613: Unused argument 'data' (unused-argument)
+B03898_08_codes\oandapy.py:335:23: W0613: Unused argument 'data' (unused-argument)
+B03898_08_codes\oandapy.py:349:0: W0105: String statement has no effect (pointless-string-statement)
+B03898_08_codes\oandapy.py:356:14: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+B03898_08_codes\oandapy.py:358:8: R1725: Consider using Python 3 style super() without arguments (super-with-arguments)
+
+------------------------------------------------------------------
+Your code has been rated at 6.92/10 (previous run: 6.92/10, +0.00)
+
+************* Module simple_order_routing
+B03898_08_codes\simple_order_routing.py:15:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 15)' (syntax-error)
+************* Module B03898_09_01
+B03898_09_codes\B03898_09_01.py:232:9: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 232)' (syntax-error)
+************* Module BinomialCRROption
+B03898_10_codes\BinomialCRROption.py:27:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 27)' (syntax-error)
+************* Module BinomialTreeOption
+B03898_10_codes\BinomialTreeOption.py:76:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 76)' (syntax-error)
+************* Module binomial_crr_com
+B03898_10_codes\binomial_crr_com.py:20:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 20)' (syntax-error)
+************* Module black_scholes
+B03898_10_codes\black_scholes.py:43:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 43)' (syntax-error)
+************* Module StockOption
+B03898_10_codes\StockOption.py:33:0: C0304: Final newline missing (missing-final-newline)
+B03898_10_codes\StockOption.py:1:0: C0103: Module name "StockOption" doesn't conform to snake_case naming style (invalid-name)
+B03898_10_codes\StockOption.py:8:0: W0105: String statement has no effect (pointless-string-statement)
+B03898_10_codes\StockOption.py:9:0: C0413: Import "import math" should be placed at the top of the module (wrong-import-position)
+B03898_10_codes\StockOption.py:12:0: C0115: Missing class docstring (missing-class-docstring)
+B03898_10_codes\StockOption.py:15:8: C0103: Attribute name "S0" doesn't conform to snake_case naming style (invalid-name)
+B03898_10_codes\StockOption.py:16:8: C0103: Attribute name "K" doesn't conform to snake_case naming style (invalid-name)
+B03898_10_codes\StockOption.py:18:8: C0103: Attribute name "T" doesn't conform to snake_case naming style (invalid-name)
+B03898_10_codes\StockOption.py:19:8: C0103: Attribute name "N" doesn't conform to snake_case naming style (invalid-name)
+B03898_10_codes\StockOption.py:20:8: C0103: Attribute name "STs" doesn't conform to snake_case naming style (invalid-name)
+B03898_10_codes\StockOption.py:12:0: R0205: Class 'StockOption' inherits from object, can be safely removed from bases in python3 (useless-object-inheritance)
+B03898_10_codes\StockOption.py:12:0: R0902: Too many instance attributes (14/7) (too-many-instance-attributes)
+B03898_10_codes\StockOption.py:14:23: C0103: Argument name "S0" doesn't conform to snake_case naming style (invalid-name)
+B03898_10_codes\StockOption.py:14:27: C0103: Argument name "K" doesn't conform to snake_case naming style (invalid-name)
+B03898_10_codes\StockOption.py:14:33: C0103: Argument name "T" doesn't conform to snake_case naming style (invalid-name)
+B03898_10_codes\StockOption.py:14:36: C0103: Argument name "N" doesn't conform to snake_case naming style (invalid-name)
+B03898_10_codes\StockOption.py:14:4: R0913: Too many arguments (7/5) (too-many-arguments)
+B03898_10_codes\StockOption.py:12:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 1.00/10 (previous run: 1.00/10, +0.00)
+
+************* Module TrinomialLattice
+B03898_10_codes\TrinomialLattice.py:45:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 45)' (syntax-error)
+************* Module TrinomialTreeOption
+B03898_10_codes\TrinomialTreeOption.py:66:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 66)' (syntax-error)
+************* Module trinomial_lattice_com
+B03898_10_codes\trinomial_lattice_com.py:20:5: E0001: Parsing failed: 'Missing parentheses in call to 'print'. Did you mean print(...)? (<unknown>, line 20)' (syntax-error)
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_01_codes\B03898_01_01.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_01_codes\B03898_01_02.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_01.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_02.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_03.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_04.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_05.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_06.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_07.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_08.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_09.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_10.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_11.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_03_codes\bisection.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_03_codes\general_nonlinear_solvers_no_solution.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_03_codes\general_nonlinear_solvers_with_solution.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_03_codes\incremental_search.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_03_codes\newton.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_03_codes\scipy_optimize.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_03_codes\secant.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\BinomialCRRLattice.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\BinomialCRROption.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\BinomialEuropeanOption.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\BinomialLROption.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\BinomialLRWithGreeks.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\BinomialTreeOption.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\bisection.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\FDCnAm.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\FDCnDo.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\FDCnEu.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\FDExplicitEu.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\FDImplicitEu.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\FiniteDifferences.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\ImpliedVolatilityModel.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\StockOption.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\TrinomialLattice.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\TrinomialTreeOption.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\bond_convexity.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\bond_mod_duration.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\bond_price.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\bond_ytm.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\BootstrapYieldCurve.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\brennan_schwartz.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\cir.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\exact_zcb.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\forward_rates.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\rendleman_bartter.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\vasicek.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\VasicekCZCB.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\zero_coupon_bond.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_07_Codes\B03898_07_02.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_07_Codes\B03898_07_04.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_07_Codes\B03898_07_08.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_07_Codes\B03898_07_11.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_07_Codes\B03898_07_14.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_07_Codes\B03898_07_15.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_08_codes\AlgoSystem.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_08_codes\calculating_var.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_08_codes\exploring_oanda_api.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_08_codes\ForexSystem.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_08_codes\oandapy.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_08_codes\simple_order_routing.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_09_codes\B03898_09_01.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\BinomialCRROption.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\BinomialTreeOption.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\binomial_crr_com.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\black_scholes.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\StockOption.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\TrinomialLattice.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\TrinomialTreeOption.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\trinomial_lattice_com.py-----

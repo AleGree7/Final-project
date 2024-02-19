@@ -1,0 +1,14 @@
+Safety 3.0.1 scanning 
+C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes
+2024-02-19 21:08:06 UTC
+
+Account: Кирилл Шмелев, shmelevka1993@gmail.com 
+ Git branch: master
+ Environment: Stage.development
+ Scan policy: None, using Safety CLI default policies
+
+
+Tested 0 dependencies for known security issues using default Safety CLI 
+policies
+0 security issues found, 0 fixes suggested
+

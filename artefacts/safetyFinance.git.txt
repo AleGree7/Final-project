@@ -1,0 +1,45 @@
+Safety 3.0.1 scanning 
+C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\
+Finance.git
+2024-02-19 21:09:14 UTC
+
+Account: Кирилл Шмелев, shmelevka1993@gmail.com 
+ Git branch: master
+ Environment: Stage.development
+ Scan policy: None, using Safety CLI default policies
+
+Python detected. Found 1 Python requirement file
+
+Dependency vulnerabilities detected:
+
+📝 requirements.txt:
+
+ Flask==2.2.2  [1 vulnerability found]                                         
+  -> Vuln ID 55261: CVE-2023-30861, CVSS Severity HIGH                         
+     Flask 2.2.5 and 2.3.2 include a fix for CVE-2023-30861: When all of the   
+     following conditions are met, a respon...                                 
+ Update Flask==2.2.2 to Flask==2.2.5 to fix 1 vulnerability                    
+ Versions of Flask with no known vulnerabilities: 3.0.2, 3.0.1, 3.0.0, 2.3.3,  
+ 2.3.2                                                                         
+ Learn more: https://data.safetycli.com/p/pypi/flask/eda/?from=2.2.2&to=2.2.5  
+
+-------------------------------------------------------------------------------
+Apply Fixes
+-------------------------------------------------------------------------------
+
+Run `safety scan --apply-fixes` to update these packages and fix these 
+vulnerabilities. Documentation, limitations, and configurations for applying 
+automated fixes: 
+https://docs.safetycli.com/safety-docs/vulnerability-remediation/applying-fixes
+
+Alternatively, use your package manager to update packages to their secure 
+versions. Always check for breaking changes when updating packages.
+Tip: For more detailed output on each vulnerability, add the 
+`--detailed-output` flag to safety scan.
+
+-------------------------------------------------------------------------------
+
+Tested 46 dependencies for known security issues using default Safety CLI 
+policies
+1 security issue found, 1 fix suggested
+

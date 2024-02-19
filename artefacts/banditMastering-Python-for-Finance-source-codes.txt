@@ -1,0 +1,1846 @@
+Run started:2024-02-19 21:08:13.343372
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 15
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_01_codes\B03898_01_01.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:13.602005
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 13
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_01_codes\B03898_01_02.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:13.851406
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 20
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_01.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:14.097789
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 18
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_02.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:14.350418
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 20
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_03.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:14.603917
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_04.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 38
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:08:14.848622
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 42
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_05.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:15.098836
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 13
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_06.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:15.354179
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 20
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_07.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:15.599832
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 21
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_08.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:15.849557
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 18
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_09.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:16.102765
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 28
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_10.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:16.353021
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 28
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_11.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:16.598882
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 34
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_03_codes\bisection.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:16.847914
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 15
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_03_codes\general_nonlinear_solvers_no_solution.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:17.109583
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 15
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_03_codes\general_nonlinear_solvers_with_solution.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:17.358682
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 44
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_03_codes\incremental_search.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:17.610335
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 32
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_03_codes\newton.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:17.866436
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 21
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_03_codes\scipy_optimize.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:18.114300
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 31
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_03_codes\secant.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:18.361321
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 41
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\BinomialCRRLattice.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:18.613850
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 26
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\BinomialCRROption.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:18.858530
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 48
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\BinomialEuropeanOption.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:19.108696
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 41
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\BinomialLROption.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:19.360630
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 56
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\BinomialLRWithGreeks.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:19.609566
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 55
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\BinomialTreeOption.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:19.864575
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 34
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\bisection.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:20.116487
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 83
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\FDCnAm.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:20.374940
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 30
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\FDCnDo.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:20.623566
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 44
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\FDCnEu.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:20.869646
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 49
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\FDExplicitEu.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:21.117081
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 42
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\FDImplicitEu.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:21.379554
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\FiniteDifferences.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 45
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:08:21.645432
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\ImpliedVolatilityModel.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 52
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:08:21.898573
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\StockOption.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 27
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:08:22.149612
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 39
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\TrinomialLattice.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:22.401019
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 58
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\TrinomialTreeOption.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:22.648301
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 19
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\bond_convexity.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:22.919827
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 20
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\bond_mod_duration.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:23.177775
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 19
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\bond_price.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:23.446378
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 20
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\bond_ytm.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:23.711792
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 78
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\BootstrapYieldCurve.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:23.968521
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\brennan_schwartz.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 23
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:08:24.228920
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\cir.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 23
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:08:24.504402
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\exact_zcb.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 37
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:08:24.756617
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 36
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\forward_rates.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:25.017601
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\rendleman_bartter.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 22
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:08:25.275854
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\vasicek.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 21
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:08:25.547761
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\VasicekCZCB.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 184
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:08:25.795558
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 15
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\zero_coupon_bond.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:26.039774
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 11
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_07_Codes\B03898_07_02.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:26.290189
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 21
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_07_Codes\B03898_07_04.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:26.535612
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 21
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_07_Codes\B03898_07_08.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:26.784901
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 20
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_07_Codes\B03898_07_11.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:27.029315
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 12
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_07_Codes\B03898_07_14.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:27.278035
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 54
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_07_Codes\B03898_07_15.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:27.526114
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 157
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_08_codes\AlgoSystem.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:27.774622
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 28
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_08_codes\calculating_var.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:28.029701
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 34
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_08_codes\exploring_oanda_api.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:28.285244
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 147
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_08_codes\ForexSystem.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:28.566271
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_08_codes\oandapy.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 282
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:08:28.811119
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 50
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_08_codes\simple_order_routing.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:29.062354
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 255
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_09_codes\B03898_09_01.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:29.321778
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 26
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\BinomialCRROption.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:29.571661
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 55
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\BinomialTreeOption.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:29.817700
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 19
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\binomial_crr_com.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:30.062703
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 33
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\black_scholes.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:30.329450
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\StockOption.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 27
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:08:30.571989
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 39
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\TrinomialLattice.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:30.818813
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 58
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\TrinomialTreeOption.py (syntax error while parsing AST from file)
+Run started:2024-02-19 21:08:31.065607
+Files in scope (0):
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 19
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\trinomial_lattice_com.py (syntax error while parsing AST from file)
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_01_codes\B03898_01_01.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_01_codes\B03898_01_02.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_01.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_02.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_03.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_04.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_05.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_06.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_07.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_08.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_09.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_10.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_02_Codes\B03898_02_11.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_03_codes\bisection.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_03_codes\general_nonlinear_solvers_no_solution.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_03_codes\general_nonlinear_solvers_with_solution.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_03_codes\incremental_search.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_03_codes\newton.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_03_codes\scipy_optimize.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_03_codes\secant.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\BinomialCRRLattice.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\BinomialCRROption.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\BinomialEuropeanOption.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\BinomialLROption.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\BinomialLRWithGreeks.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\BinomialTreeOption.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\bisection.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\FDCnAm.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\FDCnDo.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\FDCnEu.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\FDExplicitEu.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\FDImplicitEu.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\FiniteDifferences.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\ImpliedVolatilityModel.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\StockOption.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\TrinomialLattice.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_04_codes\TrinomialTreeOption.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\bond_convexity.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\bond_mod_duration.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\bond_price.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\bond_ytm.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\BootstrapYieldCurve.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\brennan_schwartz.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\cir.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\exact_zcb.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\forward_rates.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\rendleman_bartter.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\vasicek.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\VasicekCZCB.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_05_Codes\zero_coupon_bond.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_07_Codes\B03898_07_02.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_07_Codes\B03898_07_04.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_07_Codes\B03898_07_08.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_07_Codes\B03898_07_11.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_07_Codes\B03898_07_14.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_07_Codes\B03898_07_15.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_08_codes\AlgoSystem.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_08_codes\calculating_var.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_08_codes\exploring_oanda_api.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_08_codes\ForexSystem.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_08_codes\oandapy.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_08_codes\simple_order_routing.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_09_codes\B03898_09_01.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\BinomialCRROption.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\BinomialTreeOption.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\binomial_crr_com.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\black_scholes.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\StockOption.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\TrinomialLattice.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\TrinomialTreeOption.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\B03898_10_codes\trinomial_lattice_com.py-----

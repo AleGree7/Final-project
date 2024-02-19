@@ -1,0 +1,5064 @@
+Run started:2024-02-19 21:09:23.144281
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\ta_functions.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 309
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:23.404884
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\tickers.py (score: {SEVERITY: 25, CONFIDENCE: 15})
+Files excluded (0):
+
+Test results:
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\tickers.py:6:11
+5	    url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
+6	    html = requests.get(url).text
+7	    df = pd.read_html(html, header=0)[0]
+
+--------------------------------------------------
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\tickers.py:13:11
+12	    url = 'http://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt'
+13	    data = requests.get(url).text
+14	    # The data is '|' separated and last two lines are not needed
+
+--------------------------------------------------
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\tickers.py:22:11
+21	    url = 'http://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt'
+22	    data = requests.get(url).text
+23	    # The data is '|' separated and the last two lines are not needed
+
+--------------------------------------------------
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\tickers.py:33:11
+32	    url = 'https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average'
+33	    html = requests.get(url).text
+34	    df = pd.read_html(html, header=0, attrs = {'id': 'constituents'})[0]
+
+--------------------------------------------------
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\tickers.py:40:11
+39	    url = 'http://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt'
+40	    data = requests.get(url).text
+41	    # The data is '|' separated and the last two lines are not needed
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 34
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 5
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 5
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:23.659687
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\__init__.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 0
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:23.925837
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\correlated_stocks.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 49
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:24.184504
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\finviz_growth_screener.py (score: {SEVERITY: 5, CONFIDENCE: 10})
+Files excluded (0):
+
+Test results:
+>> Issue: [B310:blacklist] Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+   Severity: Medium   Confidence: High
+   CWE: CWE-22 (https://cwe.mitre.org/data/definitions/22.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/blacklists/blacklist_calls.html#b310-urllib-urlopen
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\finviz_growth_screener.py:17:22
+16	            req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+17	            webpage = urlopen(req).read()
+18	            html = soup(webpage, "html.parser")
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 29
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 1
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 1
+Files skipped (0):
+Run started:2024-02-19 21:09:24.448406
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\fundamental_screener.py (score: {SEVERITY: 15, CONFIDENCE: 9})
+Files excluded (0):
+
+Test results:
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\fundamental_screener.py:14:11
+13	# Fetch list of companies meeting criteria
+14	screener = requests.get(url).json()
+15	
+
+--------------------------------------------------
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\fundamental_screener.py:35:21
+34	
+35	        fin_ratios = requests.get(fin_url).json()
+36	        growth_ratios = requests.get(growth_url).json()
+
+--------------------------------------------------
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\fundamental_screener.py:36:24
+35	        fin_ratios = requests.get(fin_url).json()
+36	        growth_ratios = requests.get(growth_url).json()
+37	
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 35
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 3
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 3
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:24.706485
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\get_rsi_tickers.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 28
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:24.962857
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\green_line_values.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 45
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:25.217858
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\IBD_RS_Rating.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 35
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:25.494740
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\minervini_screener.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 63
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:25.755065
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\price_alert_email.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 33
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:26.012111
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\stock_news_sentiment.py (score: {SEVERITY: 5, CONFIDENCE: 10})
+Files excluded (0):
+
+Test results:
+>> Issue: [B310:blacklist] Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+   Severity: Medium   Confidence: High
+   CWE: CWE-22 (https://cwe.mitre.org/data/definitions/22.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/blacklists/blacklist_calls.html#b310-urllib-urlopen
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\stock_news_sentiment.py:23:15
+22	    req = Request(url=url, headers={'user-agent': 'Mozilla/5.0'})
+23	    response = urlopen(req)
+24	    df = pd.read_html(response.read(), attrs={'id': 'news-table'})[0]
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 31
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 1
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 1
+Files skipped (0):
+Run started:2024-02-19 21:09:26.269953
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\tradingview_signals.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 38
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:26.540851
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\twitter_screener.py (score: {SEVERITY: 21, CONFIDENCE: 29})
+Files excluded (0):
+
+Test results:
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\twitter_screener.py:12:15
+11	    url = 'https://finance.yahoo.com/most-active/'
+12	    response = requests.get(url)
+13	    soup = BeautifulSoup(response.text, 'html.parser')
+
+--------------------------------------------------
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\twitter_screener.py:24:10
+23	def scrape_sentdex():
+24	    res = requests.get('http://www.sentdex.com/financial-analysis/?tf=30d')
+25	    soup = BeautifulSoup(res.text, 'html.parser')
+
+--------------------------------------------------
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\twitter_screener.py:50:10
+49	def scrape_twitter(url):
+50	    res = requests.get(url)
+51	    soup = BeautifulSoup(res.text, 'html.parser')
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 53
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 2
+		Medium: 3
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 3
+		Medium: 0
+		High: 2
+Files skipped (0):
+Run started:2024-02-19 21:09:26.811597
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\yahoo_recommendations.py (score: {SEVERITY: 5, CONFIDENCE: 3})
+Files excluded (0):
+
+Test results:
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\yahoo_recommendations.py:25:19
+24	        url = f'https://query2.finance.yahoo.com/v10/finance/quoteSummary/{ticker}?modules=financialData'
+25	        response = requests.get(url)
+26	        if response.ok:
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 33
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 1
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 1
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:27.090442
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\arima_time_series.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 76
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:27.363270
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\deep_learning_bot.py (score: {SEVERITY: 8, CONFIDENCE: 8})
+Files excluded (0):
+
+Test results:
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\deep_learning_bot.py:123:8
+122	    url = f"{BASE_URL}/v2/orders"
+123	    r = requests.post(url, json=data, headers=HEADERS)
+124	    return r.json()
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 92
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 1
+		Medium: 1
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 1
+		Medium: 1
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:27.625626
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\etf_graphical_lasso.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 46
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:27.885970
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\kmeans_clustering.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 31
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:28.155919
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\lstm_prediction.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 60
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:28.420070
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\ml_models_accuracy.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 51
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:28.688340
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\neural_network_prediction.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 41
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:28.943853
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\pca_kmeans_clustering.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 36
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:29.197746
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\prophet_price_prediction.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 21
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:29.466802
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\quantitative_indicators_prediction.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 57
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:29.744491
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\sklearn_trading_bot.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 67
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:30.005732
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\sp500_pca_analysis.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 46
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:30.266545
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\stocker_price_prediction.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 53
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:30.535461
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\stock_probabilistic_analysis.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 43
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:30.792455
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\stock_regression_analysis.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 25
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:31.052624
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\technical_indicators_clustering.py (score: {SEVERITY: 5, CONFIDENCE: 3})
+Files excluded (0):
+
+Test results:
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\technical_indicators_clustering.py:13:15
+12	def fetch_sp100_tickers():
+13	    response = requests.get("https://en.wikipedia.org/wiki/S%26P_100")
+14	    soup = bs.BeautifulSoup(response.text, "lxml")
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 63
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 1
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 1
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:31.309387
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\astral_timing_signals.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 25
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:31.567052
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\backtest_strategies.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 73
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:31.854689
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\backtrader_backtest.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 87
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:32.120602
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\best_moving_averages_analysis.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 55
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:32.379698
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\ema_crossover_strategy.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 46
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:32.641938
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\factor_analysis.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 33
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:32.901993
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\financial_signal_analysis.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 43
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:33.156672
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\geometric_brownian_motion.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 50
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:33.414845
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\long_hold_stats_analysis.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 35
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:33.673395
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\ls_dca_analysis.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 42
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:33.931282
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\monte_carlo.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 52
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:34.192409
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\moving_average_crossover_signals.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 48
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:34.446432
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\moving_avg_strategy.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 27
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:34.705860
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\optimal_portfolio.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 38
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:34.968391
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\optimized_bollinger_bands.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 33
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:35.221462
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\pairs_trading.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 43
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:35.479965
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\portfolio_analysis.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 50
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:35.771141
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\portfolio_optimization.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 159
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:36.033833
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\portfolio_var_simulation.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 47
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:36.297949
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\risk_management.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 42
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:36.554127
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\robinhood_bot.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 38
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:36.818453
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\rsi_trendline_strategy.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 38
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:37.077964
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\rwb_strategy.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 53
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:37.343550
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\sma_trading_strategy.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 85
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:37.599357
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\stock_spread_plotter.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 34
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:37.858344
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\support_resistance_finder.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 41
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:38.221955
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\backest_all_indicators.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 763
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:38.482250
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\capm_analysis.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 38
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:38.737941
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\earnings_call_sentiment_analysis.py (score: {SEVERITY: 5, CONFIDENCE: 3})
+Files excluded (0):
+
+Test results:
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\earnings_call_sentiment_analysis.py:8:15
+7	    url = f'https://financialmodelingprep.com/api/v3/earning_call_transcript/{company}?quarter={quarter}&year={year}&apikey={api_key}'
+8	    response = requests.get(url)
+9	    return response.json()[0]['content']
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 40
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 1
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 1
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:38.997897
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\estimating_returns.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 38
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:39.267926
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\intrinsic_value.py (score: {SEVERITY: 10, CONFIDENCE: 13})
+Files excluded (0):
+
+Test results:
+>> Issue: [B310:blacklist] Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+   Severity: Medium   Confidence: High
+   CWE: CWE-22 (https://cwe.mitre.org/data/definitions/22.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/blacklists/blacklist_calls.html#b310-urllib-urlopen
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\intrinsic_value.py:21:15
+20	def json_data(url):
+21	    response = urlopen(url)
+22	    data = response.read().decode("utf-8")
+
+--------------------------------------------------
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\intrinsic_value.py:47:14
+46	    headers = {'User-Agent': 'Mozilla/5.0'}
+47	    soup = bs(requests.get(url, headers=headers).content, features="lxml")
+48	
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 76
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 2
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 1
+		Medium: 0
+		High: 1
+Files skipped (0):
+Run started:2024-02-19 21:09:39.532308
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\kelly_criterion.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 18
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:39.793773
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\ma_backtesting.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 40
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:40.047842
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\ols_regression.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 35
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:40.306876
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\performance_risk_analysis.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 28
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:40.575154
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\risk_vs_returns.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 52
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:40.875310
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\seasonal_stock_analysis.py (score: {SEVERITY: 8, CONFIDENCE: 13})
+Files excluded (0):
+
+Test results:
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\seasonal_stock_analysis.py:18:7
+17	url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
+18	html = requests.get(url).text
+19	sp_df = pd.read_html(html, header=0)[0]
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 365
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 1
+		Medium: 1
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 1
+		Medium: 0
+		High: 1
+Files skipped (0):
+Run started:2024-02-19 21:09:41.135242
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\sma_histogram.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 34
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:41.395661
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\sp500_cot_sentiment_analysis.py (score: {SEVERITY: 5, CONFIDENCE: 10})
+Files excluded (0):
+
+Test results:
+>> Issue: [B310:blacklist] Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+   Severity: Medium   Confidence: High
+   CWE: CWE-22 (https://cwe.mitre.org/data/definitions/22.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/blacklists/blacklist_calls.html#b310-urllib-urlopen
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\sp500_cot_sentiment_analysis.py:12:9
+11	    # Download and extract COT file
+12	    with urllib.request.urlopen(url) as response, open(file_name, 'wb') as out_file:
+13	        shutil.copyfileobj(response, out_file)
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 45
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 1
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 1
+Files skipped (0):
+Run started:2024-02-19 21:09:41.686194
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\sp500_valuation.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 245
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:41.951084
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\stock_pivot_resistance.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 45
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:42.220965
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\stock_profit_loss.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 33
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:42.483174
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\stock_returns_statistical_analysis.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 29
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:42.774540
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\twitter_sentiment_analysis.py (score: {SEVERITY: 5, CONFIDENCE: 3})
+Files excluded (0):
+
+Test results:
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\twitter_sentiment_analysis.py:33:13
+32	    url = "http://d.yimg.com/autoc.finance.yahoo.com/autoc?query={}&region=1&lang=en".format(symbol)
+33	    result = requests.get(url).json()
+34	    for x in result['ResultSet']['Result']:
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 164
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 1
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 1
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:43.030538
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\var_analysis.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 26
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:43.299050
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\view_stock_returns.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 42
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:43.555061
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\autoscraper_finviz_data.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 16
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:43.824014
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\dividend_history.py (score: {SEVERITY: 8, CONFIDENCE: 13})
+Files excluded (0):
+
+Test results:
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\dividend_history.py:30:11
+29	def scrape_page(url, header):
+30	    page = requests.get(url, headers=header)
+31	    element_html = html.fromstring(page.content)
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 43
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 1
+		Medium: 1
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 1
+		Medium: 0
+		High: 1
+Files skipped (0):
+Run started:2024-02-19 21:09:44.093073
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\fibonacci_retracement.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 34
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:44.470358
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\finviz_home_scraper.py (score: {SEVERITY: 5, CONFIDENCE: 10})
+Files excluded (0):
+
+Test results:
+>> Issue: [B310:blacklist] Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+   Severity: Medium   Confidence: High
+   CWE: CWE-22 (https://cwe.mitre.org/data/definitions/22.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/blacklists/blacklist_calls.html#b310-urllib-urlopen
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\finviz_home_scraper.py:16:10
+15	req = Request(url, headers=headers)
+16	webpage = urlopen(req).read()
+17	html_content = soup(webpage, "html.parser")
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 41
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 1
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 1
+Files skipped (0):
+Run started:2024-02-19 21:09:44.877792
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\finviz_insider_trades.py (score: {SEVERITY: 5, CONFIDENCE: 10})
+Files excluded (0):
+
+Test results:
+>> Issue: [B310:blacklist] Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+   Severity: Medium   Confidence: High
+   CWE: CWE-22 (https://cwe.mitre.org/data/definitions/22.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/blacklists/blacklist_calls.html#b310-urllib-urlopen
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\finviz_insider_trades.py:13:14
+12	    req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+13	    webpage = urlopen(req).read()
+14	    return soup(webpage, "html.parser")
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 29
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 1
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 1
+Files skipped (0):
+Run started:2024-02-19 21:09:45.228870
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\finviz_news_scraper.py (score: {SEVERITY: 5, CONFIDENCE: 10})
+Files excluded (0):
+
+Test results:
+>> Issue: [B310:blacklist] Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+   Severity: Medium   Confidence: High
+   CWE: CWE-22 (https://cwe.mitre.org/data/definitions/22.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/blacklists/blacklist_calls.html#b310-urllib-urlopen
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\finviz_news_scraper.py:9:10
+8	req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+9	webpage = urlopen(req).read()
+10	html_content = soup(webpage, "html.parser")
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 21
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 1
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 1
+Files skipped (0):
+Run started:2024-02-19 21:09:45.546802
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\finviz_stock_scraper.py (score: {SEVERITY: 5, CONFIDENCE: 10})
+Files excluded (0):
+
+Test results:
+>> Issue: [B310:blacklist] Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+   Severity: Medium   Confidence: High
+   CWE: CWE-22 (https://cwe.mitre.org/data/definitions/22.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/blacklists/blacklist_calls.html#b310-urllib-urlopen
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\finviz_stock_scraper.py:16:10
+15	req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+16	webpage = urlopen(req).read()
+17	html_content = soup(webpage, "html.parser")
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 57
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 1
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 1
+Files skipped (0):
+Run started:2024-02-19 21:09:45.916013
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\fundamental_ratios.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 23
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:46.221843
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\get_dividend_calendar.py (score: {SEVERITY: 5, CONFIDENCE: 3})
+Files excluded (0):
+
+Test results:
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\get_dividend_calendar.py:30:19
+29	        # Scrape dividend data from NASDAQ API for a given date
+30	        response = requests.get(self.url, headers=self.hdrs, params={'date': date_str})
+31	        return response.json()
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 49
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 1
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 1
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:46.520258
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\green_line_test.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 60
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:46.797160
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\high_dividend_yield.py (score: {SEVERITY: 5, CONFIDENCE: 3})
+Files excluded (0):
+
+Test results:
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\high_dividend_yield.py:23:22
+22	        # Fetch company data from FinancialModelingPrep API using the ticker symbol
+23	        companydata = requests.get(f'https://fmpcloud.io/api/v3/profile/{company}?apikey={demo}')
+24	        companydata = companydata.json()  # Convert response to JSON format
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 35
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 1
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 1
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:47.055139
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\historical_sp500_data.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 22
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:47.329848
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\main_indicators_one_graph.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 54
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:47.593347
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\main_indicators_streamlit.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 53
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:47.853069
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\pivots_calculator.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 33
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:48.109690
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\reddit_scraper.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 16
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:48.374705
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\send_top_movers.py (score: {SEVERITY: 8, CONFIDENCE: 8})
+Files excluded (0):
+
+Test results:
+>> Issue: [B113:request_without_timeout] Requests call without timeout
+   Severity: Medium   Confidence: Low
+   CWE: CWE-400 (https://cwe.mitre.org/data/definitions/400.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b113_request_without_timeout.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\send_top_movers.py:17:15
+16	    url = 'https://finance.yahoo.com/gainers/'
+17	    response = requests.get(url)
+18	    soup = BeautifulSoup(response.text, 'html.parser')
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 59
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 1
+		Medium: 1
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 1
+		Medium: 1
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:48.649344
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\stock_data_sms.py (score: {SEVERITY: 8, CONFIDENCE: 15})
+Files excluded (0):
+
+Test results:
+>> Issue: [B310:blacklist] Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+   Severity: Medium   Confidence: High
+   CWE: CWE-22 (https://cwe.mitre.org/data/definitions/22.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/blacklists/blacklist_calls.html#b310-urllib-urlopen
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\stock_data_sms.py:65:23
+64	            req = Request(url=finviz_url + stock, headers={'user-agent': 'Mozilla/5.0'})
+65	            response = urlopen(req).read()
+66	            html = BeautifulSoup(response, "html.parser")
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 59
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 1
+		Medium: 1
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 1
+		High: 1
+Files skipped (0):
+Run started:2024-02-19 21:09:48.925158
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\stock_earnings.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 40
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:49.346487
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\stock_twilio_server.py (score: {SEVERITY: 15, CONFIDENCE: 15})
+Files excluded (0):
+
+Test results:
+>> Issue: [B310:blacklist] Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+   Severity: Medium   Confidence: High
+   CWE: CWE-22 (https://cwe.mitre.org/data/definitions/22.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/blacklists/blacklist_calls.html#b310-urllib-urlopen
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\stock_twilio_server.py:50:18
+49	        req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+50	        webpage = urlopen(req).read()
+51	        html = BeautifulSoup(webpage, "html.parser")
+
+--------------------------------------------------
+>> Issue: [B201:flask_debug_true] A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+   Severity: High   Confidence: Medium
+   CWE: CWE-94 (https://cwe.mitre.org/data/definitions/94.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.7/plugins/b201_flask_debug_true.html
+   Location: C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\stock_twilio_server.py:78:4
+77	if __name__ == "__main__":
+78	    app.run(port=5000, debug=True)
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 47
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 1
+		High: 1
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 1
+		High: 1
+Files skipped (0):
+Run started:2024-02-19 21:09:49.678120
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\stock_VWAP.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 46
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:50.002326
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\tradingview_intraday_data.py (score: {SEVERITY: 6, CONFIDENCE: 20})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 69
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 2
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 2
+Files skipped (0):
+Run started:2024-02-19 21:09:50.306404
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\tradingview_recommendations.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 86
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:50.594980
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\yf_intraday_data.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 18
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:50.891332
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\absolute_price_oscillator.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 56
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:51.155857
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\acceleration_bands.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 53
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:51.430264
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\accum_dist_line.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 69
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:51.693964
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\aroon.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 76
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:51.986304
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\aroon_oscillator.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 91
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:52.267093
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\avg_directional_index.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 91
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:52.563187
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\avg_true_range.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 59
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:52.866990
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\balance_of_power.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 91
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:53.142458
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\beta_indicator.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 58
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:53.424050
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\bollinger_bands.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 73
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:53.703451
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\bollinger_bandwidth.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 70
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:53.979262
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\breadth_indicator.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 80
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:54.240894
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\candle_abs_returns.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 53
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:54.512391
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\central_pivot_range_cpr.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 48
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\ta_functions.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\tickers.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\__init__.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\correlated_stocks.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\finviz_growth_screener.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\fundamental_screener.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\get_rsi_tickers.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\green_line_values.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\IBD_RS_Rating.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\minervini_screener.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\price_alert_email.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\stock_news_sentiment.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\tradingview_signals.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\twitter_screener.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\find_stocks\yahoo_recommendations.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\arima_time_series.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\deep_learning_bot.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\etf_graphical_lasso.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\kmeans_clustering.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\lstm_prediction.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\ml_models_accuracy.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\neural_network_prediction.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\pca_kmeans_clustering.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\prophet_price_prediction.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\quantitative_indicators_prediction.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\sklearn_trading_bot.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\sp500_pca_analysis.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\stocker_price_prediction.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\stock_probabilistic_analysis.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\stock_regression_analysis.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\machine_learning\technical_indicators_clustering.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\astral_timing_signals.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\backtest_strategies.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\backtrader_backtest.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\best_moving_averages_analysis.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\ema_crossover_strategy.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\factor_analysis.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\financial_signal_analysis.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\geometric_brownian_motion.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\long_hold_stats_analysis.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\ls_dca_analysis.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\monte_carlo.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\moving_average_crossover_signals.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\moving_avg_strategy.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\optimal_portfolio.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\optimized_bollinger_bands.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\pairs_trading.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\portfolio_analysis.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\portfolio_optimization.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\portfolio_var_simulation.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\risk_management.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\robinhood_bot.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\rsi_trendline_strategy.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\rwb_strategy.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\sma_trading_strategy.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\stock_spread_plotter.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\portfolio_strategies\support_resistance_finder.py-----
+Run started:2024-02-19 21:09:54.778563
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\chaikin_money_flow.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 67
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:55.050789
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\chaikin_oscillator.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 88
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:55.316450
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\commodity_channel_index.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 61
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:55.577414
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\correlation_coeff.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 57
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:55.843267
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\covariance.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 57
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:56.109850
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\detrended_price_oscillator.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 56
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:56.371198
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\donchain_channel.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 55
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:56.634294
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\double_exp_moving_avg.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 55
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:56.916977
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\dynamic_momentum_index.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 53
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:57.192885
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\ease_of_movement.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 88
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:57.460256
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\EMA.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 46
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:57.720913
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\EMA_volume.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 60
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:57.986498
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\EWMA.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 52
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:58.250177
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\EWMA_Double.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 54
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:58.520364
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\EWMA_Triple.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 61
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:58.790341
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\force_index.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 70
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:59.061839
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\GANN_lines_angles.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 83
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:59.331701
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\geometric_return_indicator.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 53
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:59.610279
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\GMMA.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 118
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:09:59.894260
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\golden_death_cross.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 103
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:00.170386
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\high_minus_low.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 50
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:00.440100
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\hull_moving_average.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 61
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:00.708854
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\keltners_channels.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 57
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:00.982350
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\linear_regression.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 67
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:01.260355
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\linear_regression_slope.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 67
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:01.527130
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\linear_weighted_moving_average.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 58
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:01.812302
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\MACD.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 159
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:02.080317
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\MA_high_low.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 45
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:02.352013
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\mcclellan_oscillator.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 68
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:02.622392
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\MFI.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 70
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:02.884430
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\momentum.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 51
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:03.145837
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\moving_average_envelopes.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 59
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:03.418297
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\moving_average_high_low.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 59
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:03.685402
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\moving_average_ribbon.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 69
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:03.948767
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\moving_avg_env.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 58
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:04.218465
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\moving_linear_regression.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 71
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:04.493341
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\new_highs_new_lows.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 67
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:04.770079
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\pivot_point.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 116
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:05.038841
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\price_channels.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 70
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:05.305850
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\price_relative.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 62
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:05.571470
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\PVI.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 61
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:05.835344
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\PVT.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 53
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:06.105128
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\realised_volatility.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 56
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:06.374781
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\relative_volatility_index.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 67
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:06.637178
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\ROC.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 59
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:06.908769
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\ROI.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 55
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:07.180127
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\RSI.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 96
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:07.447953
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\RSI_BollingerBands.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 68
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:07.707952
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\SMA.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 44
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:07.973836
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\smoothed_moving_average.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 52
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:08.246573
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\speed_resistance_lines.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 138
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:08.516322
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\standard_deviation_volatility.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 50
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:08.785189
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\stochastic_fast.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 67
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:09.057158
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\stochastic_full.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 73
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:09.335259
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\stochastic_RSI.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 94
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:09.609197
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\stochastic_slow.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 68
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:09.879529
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\super_trend.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 98
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\backest_all_indicators.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\capm_analysis.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\earnings_call_sentiment_analysis.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\estimating_returns.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\intrinsic_value.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\kelly_criterion.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\ma_backtesting.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\ols_regression.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\performance_risk_analysis.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\risk_vs_returns.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\seasonal_stock_analysis.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\sma_histogram.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\sp500_cot_sentiment_analysis.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\sp500_valuation.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\stock_pivot_resistance.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\stock_profit_loss.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\stock_returns_statistical_analysis.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\twitter_sentiment_analysis.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\var_analysis.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_analysis\view_stock_returns.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\autoscraper_finviz_data.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\dividend_history.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\fibonacci_retracement.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\finviz_home_scraper.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\finviz_insider_trades.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\finviz_news_scraper.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\finviz_stock_scraper.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\fundamental_ratios.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\get_dividend_calendar.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\green_line_test.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\high_dividend_yield.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\historical_sp500_data.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\main_indicators_one_graph.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\main_indicators_streamlit.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\pivots_calculator.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\reddit_scraper.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\send_top_movers.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\stock_data_sms.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\stock_earnings.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\stock_twilio_server.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\stock_VWAP.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\tradingview_intraday_data.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\tradingview_recommendations.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\stock_data\yf_intraday_data.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\absolute_price_oscillator.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\acceleration_bands.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\accum_dist_line.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\aroon.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\aroon_oscillator.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\avg_directional_index.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\avg_true_range.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\balance_of_power.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\beta_indicator.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\bollinger_bands.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\bollinger_bandwidth.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\breadth_indicator.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\candle_abs_returns.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\central_pivot_range_cpr.py-----
+Run started:2024-02-19 21:10:10.149828
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\TRIMA.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 53
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:10.421140
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\true_strength_index.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 66
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:10.681878
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\TWAP.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 53
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:10.948911
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\ultimate_oscillator.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 62
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:11.209051
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\variance_indicator.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 55
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:11.474151
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\volume_price_confirmation_Indicator.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 80
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:11.735330
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\volume_weighted_moving_average.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 62
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:12.004148
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\VWAP.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 50
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:12.264938
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\WMA.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 57
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:12.522250
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\WSMA.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 47
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Run started:2024-02-19 21:10:12.781407
+Files in scope (1):
+	C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\Z_Score_Indicator.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 55
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\chaikin_money_flow.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\chaikin_oscillator.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\commodity_channel_index.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\correlation_coeff.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\covariance.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\detrended_price_oscillator.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\donchain_channel.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\double_exp_moving_avg.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\dynamic_momentum_index.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\ease_of_movement.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\EMA.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\EMA_volume.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\EWMA.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\EWMA_Double.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\EWMA_Triple.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\force_index.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\GANN_lines_angles.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\geometric_return_indicator.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\GMMA.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\golden_death_cross.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\high_minus_low.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\hull_moving_average.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\keltners_channels.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\linear_regression.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\linear_regression_slope.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\linear_weighted_moving_average.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\MACD.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\MA_high_low.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\mcclellan_oscillator.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\MFI.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\momentum.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\moving_average_envelopes.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\moving_average_high_low.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\moving_average_ribbon.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\moving_avg_env.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\moving_linear_regression.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\new_highs_new_lows.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\pivot_point.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\price_channels.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\price_relative.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\PVI.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\PVT.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\realised_volatility.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\relative_volatility_index.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\ROC.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\ROI.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\RSI.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\RSI_BollingerBands.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\SMA.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\smoothed_moving_average.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\speed_resistance_lines.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\standard_deviation_volatility.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\stochastic_fast.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\stochastic_full.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\stochastic_RSI.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\stochastic_slow.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\super_trend.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\TRIMA.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\true_strength_index.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\TWAP.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\ultimate_oscillator.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\variance_indicator.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\volume_price_confirmation_Indicator.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\volume_weighted_moving_average.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\VWAP.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\WMA.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\WSMA.py-----
+-----C:\Users\shado\PycharmProjects\Sasha\Mastering-Python-for-Finance-source-codes\Finance.git\technical_indicators\Z_Score_Indicator.py-----
